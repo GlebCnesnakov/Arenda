@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\ggleb\\source\\repos\\Arenda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\userregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\userregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\iregistrateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\iregistrateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\userverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\userverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\iverifyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\iverifyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +62,121 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserVerifier.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\UserVerifier.cs",
+              "RelativeDocumentMoniker": "Arenda\\UserVerifier.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\UserVerifier.cs",
+              "RelativeToolTip": "Arenda\\UserVerifier.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:10:23.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IRegistrateUser.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\IRegistrateUser.cs",
+              "RelativeDocumentMoniker": "Arenda\\IRegistrateUser.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\IRegistrateUser.cs",
+              "RelativeToolTip": "Arenda\\IRegistrateUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:05:04.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\User.cs",
+              "RelativeDocumentMoniker": "Arenda\\User.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\User.cs",
+              "RelativeToolTip": "Arenda\\User.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T16:42:39.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRegistrar.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\UserRegistrar.cs",
+              "RelativeDocumentMoniker": "Arenda\\UserRegistrar.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\UserRegistrar.cs",
+              "RelativeToolTip": "Arenda\\UserRegistrar.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:17:52.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\RegistrationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Arenda\\RegistrationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\RegistrationWindow.xaml.cs",
+              "RelativeToolTip": "Arenda\\RegistrationWindow.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwB4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T13:57:39.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegistrationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\RegistrationWindow.xaml",
+              "RelativeDocumentMoniker": "Arenda\\RegistrationWindow.xaml",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\RegistrationWindow.xaml",
+              "RelativeToolTip": "Arenda\\RegistrationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T13:57:31.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IVerifyUser.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\IVerifyUser.cs",
+              "RelativeDocumentMoniker": "Arenda\\IVerifyUser.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\IVerifyUser.cs",
+              "RelativeToolTip": "Arenda\\IVerifyUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T15:25:59.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Arenda\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\ApplicationContext.cs",
+              "RelativeToolTip": "Arenda\\ApplicationContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:47:49.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Arenda\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Arenda\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T07:45:17.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Arenda\\MainWindow.xaml",
@@ -38,19 +184,6 @@
               "RelativeToolTip": "Arenda\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-05T07:45:22.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Arenda\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Arenda\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:45:17.405Z",
               "EditorCaption": ""
             }
           ]

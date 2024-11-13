@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\ggleb\source\repos\Arenda\Arenda\App.xaml
-11407045341
+3260686830
 
-61401486303
-198-556154604
-MainWindow.xaml;
+142069771835
+217-131095158
+MainWindow.xaml;Menu.xaml;RegistrationWindow.xaml;
 
-False
+True
 

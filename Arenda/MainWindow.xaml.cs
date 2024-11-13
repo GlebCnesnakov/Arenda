@@ -9,6 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Arenda
 {
     /// <summary>
@@ -18,7 +19,45 @@ namespace Arenda
     {
         public MainWindow()
         {
+
             InitializeComponent();
+        }
+
+        private void Button_Click_Login(object sender, RoutedEventArgs e)
+        {
+            string login = LoginTextBox.Text;
+            string password = PasswordTextBox.Password;
+            if (login.Length < 4)
+            {
+                MessageBox.Show("Длина логина меньше 4 символов");
+                return;
+            }
+            if (password.Length < 6)
+            {
+                MessageBox.Show("Длина пароля меньше 6 символов");
+                return;
+            }
+            
+            // Обращение к модели
+            User user = new(login, password, null);
+            bool isVerified = user.VerifyUser(new UserVerifier());
+
+            if (isVerified)
+            {
+                MessageBox.Show("успех");
+            }
+            else
+            {
+                MessageBox.Show("Пользователь не найден");
+                return;
+            }
+        }
+
+        private void Button_Click_Registration(object sender, RoutedEventArgs e)
+        {
+            RegistrationWindow rw = new();
+            rw.Show();
+            Hide();
         }
     }
 }

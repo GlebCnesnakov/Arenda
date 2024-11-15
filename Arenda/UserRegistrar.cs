@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +13,12 @@ namespace Arenda
         {
             using (ApplicationContext db = new ApplicationContext())
             {
-                var existingUser = db.Users.FirstOrDefault(u => u.Login == user.Login);
+                var existingUser = await db.Users.FirstOrDefaultAsync(u => u.Login == user.Login);
                 string newpass = BCrypt.Net.BCrypt.HashPassword(user.Password);
+
                 if (existingUser == null)
                 {
-                    await db.Users.AddAsync(new User(user.Login, newpass, user.Role));
+                    await db.Users.AddAsync(new User(user.Login, newpass));
                     await db.SaveChangesAsync();
                     return true;
                 }

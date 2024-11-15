@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Microsoft.Extensions.Options;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 
 namespace Arenda
@@ -21,9 +23,14 @@ namespace Arenda
         {
 
             InitializeComponent();
+            string dbPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\Database.db");
+            
+            MessageBox.Show(System.IO.Path.GetFullPath(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory + @"..\..\..\Database.db")));
+            
+
         }
 
-        private void Button_Click_Login(object sender, RoutedEventArgs e)
+        private async void Button_Click_Login(object sender, RoutedEventArgs e)
         {
             string login = LoginTextBox.Text;
             string password = PasswordTextBox.Password;
@@ -39,12 +46,14 @@ namespace Arenda
             }
             
             // Обращение к модели
-            User user = new(login, password, null);
-            bool isVerified = user.VerifyUser(new UserVerifier());
+            User user = new(login, password);
+            bool isVerified = await user.VerifyUser(new UserVerifier());
 
             if (isVerified)
             {
-                MessageBox.Show("успех");
+                MainMenu menu = new MainMenu();
+                menu.Show();
+                Hide();
             }
             else
             {

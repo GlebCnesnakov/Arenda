@@ -8,6 +8,6 @@ namespace Arenda
 {
     interface IVerifyUser
     {
-        bool VerifyUser(User user);
+        Task<bool> VerifyUser(User user);
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,11 +12,12 @@ namespace Arenda
     /// </summary>
     class UserVerifier : IVerifyUser
     {
-        public bool VerifyUser(User user)
+        public async Task<bool> VerifyUser(User user)
         {
             using (var db = new ApplicationContext())
             {
-                User existingUser = db.Users.FirstOrDefault(x => x.Login == user.Login);
+                User existingUser = await db.Users.FirstOrDefaultAsync(x => x.Login == user.Login);
+                
                 if (existingUser != null)
                 {
                     //if (BCrypt.Net.BCrypt.Verify(existingUser.Password, user.Password))

@@ -24,12 +24,11 @@ namespace Arenda
             InitializeComponent();
         }
 
-        private void Button_Click_Registration(object sender, RoutedEventArgs e)
+        private async void Button_Click_Registration(object sender, RoutedEventArgs e)
         {
             string login = LoginTextBox.Text;
             string password = PasswordTextBox.Password;
             string passwordRepeat = PasswordRepeatTextBox.Password;
-            string role = "user";
             if (login.Length < 4)
             {
                 MessageBox.Show("Длина логина меньше 4 символов");
@@ -46,18 +45,16 @@ namespace Arenda
                 return;
             }
 
-            if (login.ToLower().Contains("admin"))
-            {
-                role = "admin";
-            }
-            
 
             // Обращение к модели
-            User user = new(login, password, role);
-            bool isRegistrated = user.RegisterUser(new UserRegistrar());
+            User user = new(login, password);
+            bool isRegistrated = await user.RegisterUser(new UserRegistrar());
+            
             if (isRegistrated)
             {
-                MessageBox.Show("Пользователь зарегистрирован");
+                MainMenu mainMenu = new MainMenu();
+                mainMenu.Show();
+                Hide();
             }
             else
             {

@@ -25,13 +25,13 @@ namespace Arenda
             Login = login;
             Password = password;
         }
-        public Task<bool> VerifyUser(IVerifyUser verifier)
+        public async Task<bool> VerifyUser(IVerifyUser verifier)
         {
-            return verifier.VerifyUser(this);
+            return await verifier.VerifyUser(this);
         }
-        public Task<bool> RegisterUser(IRegistrateUser registrar)
+        public async Task<bool> RegisterUser(IRegistrateUser registrar)
         {
-            return registrar.RegisterUser(this);
+            return await registrar.RegisterUser(this);
         }
     }
 }

@@ -92,7 +92,6 @@ BorderBrush="Gray" Margin="0,0,20,10" Click="Button_Click_Registration">
             </Button.Template>
             
         </Button>
-        <TextBox HorizontalAlignment="Left" Margin="601,135,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

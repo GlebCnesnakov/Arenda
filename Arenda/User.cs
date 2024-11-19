@@ -15,7 +15,7 @@ namespace Arenda
     /// Класс модель пользователь
     /// </summary>
     [Table("Users")]
-    class User
+    public class User
     {
         public int ID {  get; set; }
         public string Login { get; set; }
@@ -32,6 +32,10 @@ namespace Arenda
         public async Task<bool> RegisterUser(IRegistrateUser registrar)
         {
             return await registrar.RegisterUser(this);
+        }
+        public List<UserPermissions> GetUserPermissions(IGetPermissions getter)
+        {
+            return getter.GetUserPermissions(this);
         }
     }
 }

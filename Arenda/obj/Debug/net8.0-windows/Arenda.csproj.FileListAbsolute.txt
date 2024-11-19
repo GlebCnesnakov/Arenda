@@ -70,3 +70,4 @@ C:\Users\ggleb\source\repos\Arenda\Arenda\bin\Debug\net8.0-windows\System.Text.E
 C:\Users\ggleb\source\repos\Arenda\Arenda\bin\Debug\net8.0-windows\System.Text.Json.dll
 C:\Users\ggleb\source\repos\Arenda\Arenda\bin\Debug\net8.0-windows\runtimes\linux-musl-s390x\native\libe_sqlite3.so
 C:\Users\ggleb\source\repos\Arenda\Arenda\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\ggleb\source\repos\Arenda\Arenda\obj\Debug\net8.0-windows\App.baml

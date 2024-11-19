@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Arenda"
         mc:Ignorable="d"
-        Title="MainMenu" Height="450" Width="800">
-    <Grid>
+        Title="MainMenu" Height="450" Width="800" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="firstRow" Height="15*"/>
+            <RowDefinition x:Name="secondRow" Height="419*"/>
+        </Grid.RowDefinitions>
         
+
+
     </Grid>
 </Window>

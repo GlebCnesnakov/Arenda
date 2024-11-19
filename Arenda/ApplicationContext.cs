@@ -9,10 +9,11 @@ using System.IO;
 
 namespace Arenda
 {
-    class ApplicationContext : DbContext
+    public class ApplicationContext : DbContext
     {
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<MainMenuItem> MainMenuItems { get; set; }
+        public virtual DbSet<UserPermissions> UserPermission { get; set; }
         public ApplicationContext() { }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -28,7 +29,7 @@ namespace Arenda
             modelBuilder.Entity<MainMenuItem>().Property(p => p.Method).HasColumnName("function_name");
             modelBuilder.Entity<MainMenuItem>().Property(p => p.Sequence).HasColumnName("sequence");
             modelBuilder.Entity<MainMenuItem>().HasAnnotation("Relational:ConstructorBinding", typeof(MainMenuItem).GetConstructor(new[] { typeof(int), typeof(string), typeof(string), typeof(string), typeof(int) }));
-
+            modelBuilder.Entity<UserPermissions>().HasNoKey();
 
         }
     }

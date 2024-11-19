@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Arenda
 {
-    interface IRegistrateUser
+    public interface IRegistrateUser
     {
         Task<bool> RegisterUser(User user);
     }

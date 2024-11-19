@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arenda", "Arenda\Arenda.csproj", "{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arenda", "Arenda\Arenda.csproj", "{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangePassword", "ChangePassword\ChangePassword.csproj", "{4F1E9ACF-C854-42AB-81C7-877B4CE19D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permissions", "Permissions\Permissions.csproj", "{D0077426-A691-47E3-98AE-19847B07B2F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1E9ACF-C854-42AB-81C7-877B4CE19D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1E9ACF-C854-42AB-81C7-877B4CE19D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1E9ACF-C854-42AB-81C7-877B4CE19D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1E9ACF-C854-42AB-81C7-877B4CE19D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0077426-A691-47E3-98AE-19847B07B2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0077426-A691-47E3-98AE-19847B07B2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0077426-A691-47E3-98AE-19847B07B2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0077426-A691-47E3-98AE-19847B07B2F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

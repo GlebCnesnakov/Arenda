@@ -25,7 +25,7 @@ namespace Arenda
             InitializeComponent();
             string dbPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\Database.db");
             
-            MessageBox.Show(System.IO.Path.GetFullPath(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory + @"..\..\..\Database.db")));
+            //MessageBox.Show(System.IO.Path.GetFullPath(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory + @"..\..\..\Database.db")));
             
 
         }
@@ -51,6 +51,7 @@ namespace Arenda
 
             if (isVerified)
             {
+                
                 MainMenu menu = new MainMenu();
                 menu.Show();
                 Hide();

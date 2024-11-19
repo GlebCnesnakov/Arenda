@@ -58,7 +58,7 @@ namespace Arenda
             }
             else
             {
-                MessageBox.Show("Пользователь уже существует");
+                MessageBox.Show("Не удалось зарегестрировать пользователя");
             }
         }
 

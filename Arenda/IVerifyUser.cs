@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Arenda
 {
-    interface IVerifyUser
+    public interface IVerifyUser
     {
         Task<bool> VerifyUser(User user);
     }

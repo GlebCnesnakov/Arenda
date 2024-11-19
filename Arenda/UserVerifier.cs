@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Input;
 
 namespace Arenda
 {
@@ -24,6 +26,9 @@ namespace Arenda
                     if (BCrypt.Net.BCrypt.Verify(user.Password, existingUser.Password))
                     //if (user.Password == existingUser.Password)
                     {
+                        Application.Current.Properties["CurrentUser"] = existingUser;
+                        
+                        
                         return true;
                     }
                     return false;

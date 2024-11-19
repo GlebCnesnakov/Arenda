@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Arenda
 {
@@ -18,8 +19,19 @@ namespace Arenda
 
                 if (existingUser == null)
                 {
-                    await db.Users.AddAsync(new User(user.Login, newpass));
-                    await db.SaveChangesAsync();
+                    try
+                    {
+                        User newUser = new User(user.Login, newpass);
+                        await db.Users.AddAsync(newUser);
+                        await db.SaveChangesAsync();
+                        User userFromDB = db.Users.FirstOrDefault(u => u.Login == newUser.Login);
+                        Application.Current.Properties["CurrentUser"] = userFromDB;
+                    }
+                    catch (Exception e)
+                    {
+                        MessageBox.Show("Ошибка работы с БД");
+                        return false;
+                    }
                     return true;
                 }
                 return false;

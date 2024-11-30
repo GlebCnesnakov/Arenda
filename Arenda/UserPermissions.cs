@@ -12,9 +12,11 @@ namespace Arenda
     [Table("UserPermissions")]
     public class UserPermissions
     {
+        [Key]
+        public int ID { get; set; }
         [Column("id_user")]
         public int id_user { get; set; }
-        [Column("id_menu_item")]
+        [Column("id_item_menu")]
         public int IdMenuItem {  get; set; }
         [Column("R")]
         public int CanRead {  get; set; }

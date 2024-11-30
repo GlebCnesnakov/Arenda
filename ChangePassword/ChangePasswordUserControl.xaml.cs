@@ -21,6 +21,7 @@ namespace ChangePassword
     /// </summary>
     public partial class ChangePasswordUserControl : UserControl
     {
+        public int fg;
         public ChangePasswordUserControl()
         {
             InitializeComponent();

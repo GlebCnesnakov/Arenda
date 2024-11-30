@@ -29,7 +29,7 @@ namespace Arenda
             modelBuilder.Entity<MainMenuItem>().Property(p => p.Method).HasColumnName("function_name");
             modelBuilder.Entity<MainMenuItem>().Property(p => p.Sequence).HasColumnName("sequence");
             modelBuilder.Entity<MainMenuItem>().HasAnnotation("Relational:ConstructorBinding", typeof(MainMenuItem).GetConstructor(new[] { typeof(int), typeof(string), typeof(string), typeof(string), typeof(int) }));
-            modelBuilder.Entity<UserPermissions>().HasNoKey();
+
 
         }
     }

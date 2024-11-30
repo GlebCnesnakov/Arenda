@@ -106,7 +106,7 @@ namespace Arenda
                         permissionsDictionary.TryGetValue(item.ID, out var us);
 
                        // UserPermissions us = userPermissions.FirstOrDefault(x => x.IdMenuItem == item.ID); // поиск пункта меню
-                        if (item.ParrentID == 0 || item.Name == "Сменить пароль" || item.Name == "Настройка") // Если это главный элемент, нужно отобразить всегда
+                        if (item.Name == "Сменить пароль" || item.Name == "Разное") // Если это главный элемент, нужно отобразить всегда
                         {
                             if (item.Name != "Права пользователей")
                             {

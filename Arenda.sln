@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arenda", "Arenda\Arenda.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangePassword", "ChangePassword\ChangePassword.csproj", "{4F1E9ACF-C854-42AB-81C7-877B4CE19D1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permissions", "Permissions\Permissions.csproj", "{D0077426-A691-47E3-98AE-19847B07B2F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Permissions", "Permissions\Permissions.csproj", "{D0077426-A691-47E3-98AE-19847B07B2F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D0077426-A691-47E3-98AE-19847B07B2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0077426-A691-47E3-98AE-19847B07B2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0077426-A691-47E3-98AE-19847B07B2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

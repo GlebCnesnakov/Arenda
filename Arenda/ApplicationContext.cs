@@ -9,7 +9,7 @@ using System.IO;
 
 namespace Arenda
 {
-    public class ApplicationContext : DbContext
+    public partial class ApplicationContext : DbContext
     {
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<MainMenuItem> MainMenuItems { get; set; }

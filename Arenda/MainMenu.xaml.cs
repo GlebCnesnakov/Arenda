@@ -26,7 +26,6 @@ namespace Arenda
             MenuDraw();
         }
 
-        
 
         void MenuItem_Click(object sender, RoutedEventArgs e)
         {
@@ -41,8 +40,9 @@ namespace Arenda
                 Type windowType = assembly.GetType(mi.Method);
                 if (windowType != null)
                 {
+                    Application.Current.Properties["CurrentMenuItemID"] = mi.ID; // Хранение ID выбранного пункта
                     UserControl controller = (UserControl)Activator.CreateInstance(windowType);
-
+                    
                     Grid.SetRow(controller, 1);
                     MainGrid.Children.Add(controller);
                 }

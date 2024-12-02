@@ -70,7 +70,7 @@ namespace Banks
                 MessageBox.Show("Введите элемент для добавления");
                 return;
             }
-            Data.WriteData<Bank>(name);
+            Data.WriteData<Bank, string>(name);
             if (permissions[0]) FillDataGrid(); // если можно читать - обновляем таблицу
             if (!permissions[0]) MessageBox.Show("Элемент добавлен");    
         }
@@ -85,7 +85,7 @@ namespace Banks
                 MessageBox.Show("Старый элемент не выбран или длина нового элемента меньше двух");
                 return;
             }
-            Data.EditData<Bank>(b.Name, newName);
+            Data.EditData<Bank, string>(b.Name, newName);
             if (permissions[0]) FillDataGrid(); // если можно читать - обновляем таблицу
             if (!permissions[0]) MessageBox.Show("Элемент изменён");
         }
@@ -102,7 +102,7 @@ namespace Banks
                 Bank b = dataGrid.SelectedItem as Bank;
                 if (b != null)
                 {
-                    Data.DeleteData<Bank>(b.Name);
+                    Data.DeleteData<Bank, string>(b.Name);
                     if (permissions[0]) FillDataGrid();
                 }
             }
@@ -111,7 +111,7 @@ namespace Banks
                 string toDelete = inputTextBox.Text;
                 if (!String.IsNullOrEmpty(toDelete))
                 {
-                    Data.DeleteData<Bank>(toDelete);
+                    Data.DeleteData<Bank, string>(toDelete);
                     if (permissions[0]) FillDataGrid();
                 }
                 else
@@ -126,7 +126,7 @@ namespace Banks
             string search = searchTextBox.Text;
             if (!String.IsNullOrEmpty(search))
             {
-                dataGrid.ItemsSource = Data.SearchData<Bank>(search);
+                dataGrid.ItemsSource = Data.SearchData<Bank, string>(search);
             }
             else
             {

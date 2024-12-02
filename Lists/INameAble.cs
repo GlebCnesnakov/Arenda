@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lists
 {
-    public interface INameAble
+    public interface INameAble<T>
     {
-        string Name { get; set; }
+        T Name { get; set; }
     }
 }

@@ -9,11 +9,11 @@ using System.ComponentModel.DataAnnotations;
 namespace Lists
 {
     [Table("Payment_Frequency")]
-    public class PaymentFrequency : INameAble
+    public class PaymentFrequency : INameAble<int>
     {
         [Key]
         public int ID { get; set; }
         [Column("frequency")]
-        public string Name { get; set; }
+        public int Name { get; set; }
     }
 }

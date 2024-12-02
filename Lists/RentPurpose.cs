@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Lists
 {
     [Table("RentPurpose")]
-    public class RentPurpose : INameAble
+    public class RentPurpose : INameAble<string>
     {
         [Key]
         public int ID { get; set; }

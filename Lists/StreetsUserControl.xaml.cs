@@ -20,17 +20,21 @@ namespace Lists
     /// </summary>
     public partial class StreetsUserControl : UserControl
     {
-        bool[] permissions = new bool[4];
+        protected bool[] permissions = new bool[4];
         public StreetsUserControl()
         {
             InitializeComponent();
             //проверка на разрешения
             UserPermissionsVerifier uv = new();
             permissions = uv.VerifyUser(); // Получили разрешения
+            dataGrid.CanUserAddRows = false; // не добавлять
+            dataGrid.IsReadOnly = true; // не изменять
+            dataGrid.CanUserDeleteRows = false;// не удалять
+            searchButton.IsEnabled = true;
             if (permissions[0])
             {
                 FillDataGrid();
-                searchButton.IsEnabled = true;
+
             }
             if (permissions[1])
             {
@@ -39,7 +43,7 @@ namespace Lists
             }
             if (permissions[2])
             {
-                dataGrid.IsReadOnly = false;
+
                 editButton.IsEnabled = true;
                 editButton.Visibility = Visibility.Visible;
             }
@@ -48,30 +52,82 @@ namespace Lists
                 deleteButton.IsEnabled = true;
                 deleteButton.Visibility = Visibility.Visible;
             }
+            // Возможно реализовать WED в самой DataGrid 
         }
-        void FillDataGrid()
+        protected void FillDataGrid()
         {
             dataGrid.ItemsSource = Data.ReadData<Street>();
-        }
-
-        private void ButtonClickSearch(object sender, RoutedEventArgs e)
-        {
-
-        }
-        private void ButtonClickEdit(object sender, RoutedEventArgs e)
-        {
-
         }
         private void ButtonClickAdd(object sender, RoutedEventArgs e)
         {
             string name = inputTextBox.Text;
-            if (name == "") return;
-            Data.WriteData<Street>(name);
+            if (String.IsNullOrEmpty(name) || name.Length < 2)
+            {
+                MessageBox.Show("Введите элемент для добавления");
+                return;
+            }
+            Data.WriteData<Street, string>(name);
+            if (permissions[0]) FillDataGrid(); // если можно читать - обновляем таблицу
+            if (!permissions[0]) MessageBox.Show("Элемент добавлен");
+        }
 
+        private void ButtonClickEdit(object sender, RoutedEventArgs e) // выделяем элемент, пишем в текстбок, меняем
+        {
+            Street b = dataGrid.SelectedItem as Street; // добавить поиск
+            string newName = inputTextBox.Text;
+
+            if (b == null || String.IsNullOrEmpty(newName) || newName.Length < 2)
+            {
+                MessageBox.Show("Старый элемент не выбран или длина нового элемента меньше двух");
+                return;
+            }
+            Data.EditData<Street, string>(b.Name, newName);
+            if (permissions[0]) FillDataGrid(); // если можно читать - обновляем таблицу
+            if (!permissions[0]) MessageBox.Show("Элемент изменён");
         }
         private void ButtonClickDelete(object sender, RoutedEventArgs e)
         {
+            var result = MessageBox.Show(
+                "Осуществить удаление по строке?\nВ случае ответа \"Нет\" будет осуществлено удаление по выбранному элементу",
+                "Выбор",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Question
+                );
+            if (result == MessageBoxResult.No)
+            {
+                Street b = dataGrid.SelectedItem as Street;
+                if (b != null)
+                {
+                    Data.DeleteData<Street, string>(b.Name);
+                    if (permissions[0]) FillDataGrid();
+                }
+            }
+            else if (result == MessageBoxResult.Yes)
+            {
+                string toDelete = inputTextBox.Text;
+                if (!String.IsNullOrEmpty(toDelete))
+                {
+                    Data.DeleteData<Street, string>(toDelete);
+                    if (permissions[0]) FillDataGrid();
+                }
+                else
+                {
+                    MessageBox.Show("Введите элемент для удаления или выберите его");
+                }
+            }
+        }
 
+        private void ButtonClickSearch(object sender, RoutedEventArgs e)
+        {
+            string search = searchTextBox.Text;
+            if (!String.IsNullOrEmpty(search))
+            {
+                dataGrid.ItemsSource = Data.SearchData<Street, string>(search);
+            }
+            else
+            {
+                MessageBox.Show("Введите элемент поиска");
+            }
         }
     }
 }

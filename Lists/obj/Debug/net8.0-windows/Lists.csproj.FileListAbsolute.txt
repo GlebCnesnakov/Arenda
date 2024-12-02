@@ -24,3 +24,11 @@ C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\Lists.csproj.A
 C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\Lists.csproj.Up2Date
 C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\StreetsUserControl.g.cs
 C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\StreetsUserControl.baml
+C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\DecorationUserControl.g.cs
+C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\DistrictUserControl.g.cs
+C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\PaymentFrequencyUserControl.g.cs
+C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\RentPurposeUserControl.g.cs
+C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\DecorationUserControl.baml
+C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\DistrictUserControl.baml
+C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\PaymentFrequencyUserControl.baml
+C:\Users\ggleb\source\repos\Arenda\Lists\obj\Debug\net8.0-windows\RentPurposeUserControl.baml

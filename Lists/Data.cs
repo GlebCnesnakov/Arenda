@@ -19,25 +19,7 @@ namespace Lists
                 return db.Set<T>().ToList();
             }
         }
-        //public static void WriteData<T>(string name) where T : class
-        //{
-        //    using (var db = new ListsApplicationContext())
-        //    {
-        //        try
-        //        {
-        //            var entity = Activator.CreateInstance<T>();
-        //            var property = typeof(T).GetProperty("Name");
-        //            property.SetValue(entity, name);
-        //            db.Set<T>().Add(entity);
-        //            db.SaveChanges();
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            MessageBox.Show("Не удалось добавить новую запись");
-        //        }
-        //    }
-        //}
-        public static void WriteData<T>(string name) where T : class, INameAble, new()
+        public static void WriteData<T, TName>(TName name) where T : class, INameAble<TName>, new()
         {
             using (var db = new ListsApplicationContext())
             {
@@ -53,11 +35,11 @@ namespace Lists
                 }
             }
         }
-        public static void EditData<T>(string name, string newName) where T: class, INameAble
+        public static void EditData<T, TName>(TName name, TName newName) where T: class, INameAble<TName>
         {
             using (var db = new ListsApplicationContext())
             {
-                var ed = db.Set<T>().FirstOrDefault(x => x.Name == name);
+                var ed = db.Set<T>().FirstOrDefault(x => x.Name.Equals(name));
                 if (ed != null)
                 {
                     try
@@ -77,31 +59,36 @@ namespace Lists
                 }
             }
         }
-        public static void DeleteData<T>(string name) where T : class, INameAble
+        public static void DeleteData<T, TName>(TName name) where T : class, INameAble<TName>
         {
             using (var db = new ListsApplicationContext())
             {
-                var dd = db.Set<T>().FirstOrDefault(x => x.Name == name);
-                if (dd != null)
+                try
                 {
-                    try
+                    var dd = db.Set<T>().FirstOrDefault(x => x.Name.Equals(name));
+                    if (dd != null)
                     {
                         db.Set<T>().Remove(dd);
                         db.SaveChanges();
                         MessageBox.Show("Элемент удалён");
+
                     }
-                    catch (SqliteException ex) 
-                    {
-                        MessageBox.Show("Элемент невозможно удалить");
-                    }
+                }
+                catch(SqliteException ex)
+                {
+                    MessageBox.Show("Данные невозможно удалить");
+                }
+                catch(DbUpdateException ex)
+                {
+                    MessageBox.Show("Данные невозможно удалить");
                 }
             }
         }
-        public static List<T> SearchData<T>(string toSearch) where T : class, INameAble
+        public static List<T> SearchData<T, TName>(TName toSearch) where T : class, INameAble<TName>
         {
             using(var db = new ListsApplicationContext())
             {
-                return db.Set<T>().Where(x => x.Name.ToLower().Contains(toSearch)).ToList();
+                return db.Set<T>().Where(x => x.Name.ToString().Contains(toSearch.ToString())).ToList();
             }
         }
     }

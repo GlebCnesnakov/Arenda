@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-2322241030
+6997858619
 
-15-748536079
+191610051428
 219-233045700
-BanksUserConrol.xaml;StreetsUserControl.xaml;
+BanksUserConrol.xaml;DecorationUserControl.xaml;DistrictUserControl.xaml;PaymentFrequencyUserControl.xaml;RentPurposeUserControl.xaml;StreetsUserControl.xaml;
 
 True
 

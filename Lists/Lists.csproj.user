@@ -2,12 +2,36 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="DecorationUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DistrictUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaymentFrequencyUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RentPurposeUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="StreetsUserControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="BanksUserConrol.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DecorationUserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DistrictUserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaymentFrequencyUserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RentPurposeUserControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="StreetsUserControl.xaml">

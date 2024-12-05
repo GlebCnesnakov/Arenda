@@ -69,7 +69,7 @@ namespace ChangePassword {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ChangePassword;component/changepasswordusercontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ChangePassword;V1.0.0.0;component/changepasswordusercontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ChangePasswordUserControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

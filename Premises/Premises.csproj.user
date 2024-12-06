@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AddBuildingForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddPremisesForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BuildingUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PremisesUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddBuildingForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddPremisesForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BuildingUserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PremisesUserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

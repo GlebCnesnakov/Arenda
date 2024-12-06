@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arenda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c80f79c914e941031ca58892e20116a6cd48dab9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+744d19ef991aea2fc02a398964644ff16170bca4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arenda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arenda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

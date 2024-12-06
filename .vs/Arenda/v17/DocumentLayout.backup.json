@@ -3,24 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\ggleb\\source\\repos\\Arenda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\addpremisesform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\addpremisesform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\addbuildingform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\addbuildingform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\buildingusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\buildingusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\premisesusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\premisesusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\premisesusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\premisesusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\premises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\premises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\lists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\lists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}|Lists\\Lists.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\lists\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}|Lists\\Lists.csproj|solutionrelative:lists\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\userpermissionsverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\userpermissionsverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\premisesapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\premisesapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\addpremisesform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\addpremisesform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\addliquidrentorform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\addliquidrentorform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\liquidusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\liquidusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\addbuildingform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\addbuildingform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\userpermissionsverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\userpermissionsverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\premises\\buildingusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}|Premises\\Premises.csproj|solutionrelative:premises\\buildingusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\entitiesapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\entitiesapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\addliquidrentorform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\addliquidrentorform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\rentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\rentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\addindividualrentorform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\addindividualrentorform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\userpermissionsverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\userpermissionsverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\individualusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\individualusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0077426-A691-47E3-98AE-19847B07B2F2}|Permissions\\Permissions.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\permissions\\permissionsusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0077426-A691-47E3-98AE-19847B07B2F2}|Permissions\\Permissions.csproj|solutionrelative:permissions\\permissionsusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\liquid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +109,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\lists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\lists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}|Lists\\Lists.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\lists\\lists.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}|Lists\\Lists.csproj|solutionrelative:lists\\lists.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\individualusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\individualusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\rentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\rentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\liquidusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -47,40 +139,8 @@
       "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\individual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\liquidusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\liquidusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\addindividualrentorform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\addindividualrentorform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\individualusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\individualusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\individualusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\individualusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}|Lists\\Lists.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\lists\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}|Lists\\Lists.csproj|solutionrelative:lists\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\entities\\entitiesapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71D64A0-4F18-4130-AF67-ACC031C38F72}|Entities\\Entities.csproj|solutionrelative:entities\\entitiesapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\arenda\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3C7DF4-B00D-47B1-8744-53CA2E1038C8}|Arenda\\Arenda.csproj|solutionrelative:arenda\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}|Lists\\Lists.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\lists\\banksuserconrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}|Lists\\Lists.csproj|solutionrelative:lists\\banksuserconrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0077426-A691-47E3-98AE-19847B07B2F2}|Permissions\\Permissions.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\permissions\\permissionsusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0077426-A691-47E3-98AE-19847B07B2F2}|Permissions\\Permissions.csproj|solutionrelative:permissions\\permissionsusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0077426-A691-47E3-98AE-19847B07B2F2}|Permissions\\Permissions.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\permissions\\permissionsusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -170,7 +230,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -183,32 +243,356 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Lists.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Lists.cs",
-              "RelativeDocumentMoniker": "Entities\\Lists.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Lists.cs",
-              "RelativeToolTip": "Entities\\Lists.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA7wCMAAAAFAAAAAAAAAA==",
+              "Title": "Premises.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\Premises.cs",
+              "RelativeDocumentMoniker": "Premises\\Premises.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\Premises.cs",
+              "RelativeToolTip": "Premises\\Premises.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:43:08.411Z",
+              "WhenOpened": "2024-12-05T08:37:25.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\Data.cs",
+              "RelativeDocumentMoniker": "Premises\\Data.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\Data.cs",
+              "RelativeToolTip": "Premises\\Data.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:15:55.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddPremisesForm.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\AddPremisesForm.xaml.cs",
+              "RelativeDocumentMoniker": "Premises\\AddPremisesForm.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\AddPremisesForm.xaml.cs",
+              "RelativeToolTip": "Premises\\AddPremisesForm.xaml.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAADwv6UAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:15:53.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lists.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\Lists.cs",
+              "RelativeDocumentMoniker": "Premises\\Lists.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\Lists.cs",
+              "RelativeToolTip": "Premises\\Lists.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:46:15.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PremisesUserControl.xaml",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\PremisesUserControl.xaml",
+              "RelativeDocumentMoniker": "Premises\\PremisesUserControl.xaml",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\PremisesUserControl.xaml",
+              "RelativeToolTip": "Premises\\PremisesUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T15:16:53.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BuildingUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\BuildingUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "Premises\\BuildingUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\BuildingUserControl.xaml.cs",
+              "RelativeToolTip": "Premises\\BuildingUserControl.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:23:01.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddBuildingForm.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\AddBuildingForm.xaml.cs",
+              "RelativeDocumentMoniker": "Premises\\AddBuildingForm.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\AddBuildingForm.xaml.cs",
+              "RelativeToolTip": "Premises\\AddBuildingForm.xaml.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAAKMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:23:11.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PremisesUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\PremisesUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "Premises\\PremisesUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\PremisesUserControl.xaml.cs",
+              "RelativeToolTip": "Premises\\PremisesUserControl.xaml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwDwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:48:07.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\Data.cs",
+              "RelativeDocumentMoniker": "Lists\\Data.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\Data.cs",
+              "RelativeToolTip": "Lists\\Data.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T12:21:58.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Building.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\Building.cs",
+              "RelativeDocumentMoniker": "Premises\\Building.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\Building.cs",
+              "RelativeToolTip": "Premises\\Building.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwDAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:36:25.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PremisesApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\PremisesApplicationContext.cs",
+              "RelativeDocumentMoniker": "Premises\\PremisesApplicationContext.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\PremisesApplicationContext.cs",
+              "RelativeToolTip": "Premises\\PremisesApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:36:41.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddPremisesForm.xaml",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\AddPremisesForm.xaml",
+              "RelativeDocumentMoniker": "Premises\\AddPremisesForm.xaml",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\AddPremisesForm.xaml",
+              "RelativeToolTip": "Premises\\AddPremisesForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T15:17:14.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Data.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Data.cs",
               "RelativeDocumentMoniker": "Entities\\Data.cs",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Data.cs",
               "RelativeToolTip": "Entities\\Data.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAADwv6cAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAswKAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T13:09:29.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "AddLiquidRentorForm.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddLiquidRentorForm.xaml.cs",
+              "RelativeDocumentMoniker": "Entities\\AddLiquidRentorForm.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddLiquidRentorForm.xaml.cs",
+              "RelativeToolTip": "Entities\\AddLiquidRentorForm.xaml.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwJIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:55:08.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LiquidUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\LiquidUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "Entities\\LiquidUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\LiquidUserControl.xaml.cs",
+              "RelativeToolTip": "Entities\\LiquidUserControl.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:39:24.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddBuildingForm.xaml",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\AddBuildingForm.xaml",
+              "RelativeDocumentMoniker": "Premises\\AddBuildingForm.xaml",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\AddBuildingForm.xaml",
+              "RelativeToolTip": "Premises\\AddBuildingForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T11:29:31.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserPermissionsVerifier.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\UserPermissionsVerifier.cs",
+              "RelativeDocumentMoniker": "Premises\\UserPermissionsVerifier.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\UserPermissionsVerifier.cs",
+              "RelativeToolTip": "Premises\\UserPermissionsVerifier.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAApwBkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:30:43.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BuildingUserControl.xaml",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\BuildingUserControl.xaml",
+              "RelativeDocumentMoniker": "Premises\\BuildingUserControl.xaml",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\BuildingUserControl.xaml",
+              "RelativeToolTip": "Premises\\BuildingUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T07:49:02.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Arenda\\MainMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainMenu.xaml.cs",
+              "RelativeToolTip": "Arenda\\MainMenu.xaml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T08:26:57.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EntitiesApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\EntitiesApplicationContext.cs",
+              "RelativeDocumentMoniker": "Entities\\EntitiesApplicationContext.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\EntitiesApplicationContext.cs",
+              "RelativeToolTip": "Entities\\EntitiesApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T06:05:56.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddLiquidRentorForm.xaml",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddLiquidRentorForm.xaml",
+              "RelativeDocumentMoniker": "Entities\\AddLiquidRentorForm.xaml",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddLiquidRentorForm.xaml",
+              "RelativeToolTip": "Entities\\AddLiquidRentorForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T09:51:52.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddIndividualRentorForm.xaml",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddIndividualRentorForm.xaml",
+              "RelativeDocumentMoniker": "Entities\\AddIndividualRentorForm.xaml",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddIndividualRentorForm.xaml",
+              "RelativeToolTip": "Entities\\AddIndividualRentorForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T09:51:23.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserPermissionsVerifier.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\UserPermissionsVerifier.cs",
+              "RelativeDocumentMoniker": "Entities\\UserPermissionsVerifier.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\UserPermissionsVerifier.cs",
+              "RelativeToolTip": "Entities\\UserPermissionsVerifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:53:17.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IndividualUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\IndividualUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "Entities\\IndividualUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\IndividualUserControl.xaml.cs",
+              "RelativeToolTip": "Entities\\IndividualUserControl.xaml.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:26:20.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PermissionsUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Permissions\\PermissionsUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "Permissions\\PermissionsUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Permissions\\PermissionsUserControl.xaml.cs",
+              "RelativeToolTip": "Permissions\\PermissionsUserControl.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:41:06.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Lists.csproj",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\Lists.csproj",
+              "RelativeDocumentMoniker": "Lists\\Lists.csproj",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\Lists.csproj",
+              "RelativeToolTip": "Lists\\Lists.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T08:46:23.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Lists.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Lists.cs",
+              "RelativeDocumentMoniker": "Entities\\Lists.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Lists.cs",
+              "RelativeToolTip": "Entities\\Lists.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:43:08.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Liquid.cs",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Liquid.cs",
+              "RelativeDocumentMoniker": "Entities\\Liquid.cs",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Liquid.cs",
+              "RelativeToolTip": "Entities\\Liquid.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T06:05:29.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "AddIndividualRentorForm.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddIndividualRentorForm.xaml.cs",
               "RelativeDocumentMoniker": "Entities\\AddIndividualRentorForm.xaml.cs",
@@ -216,75 +600,33 @@
               "RelativeToolTip": "Entities\\AddIndividualRentorForm.xaml.cs",
               "ViewState": "AgIAAHIAAAAAAAAAAAAYwH0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T10:14:49.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T10:14:49.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Liquid.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Liquid.cs",
-              "RelativeDocumentMoniker": "Entities\\Liquid.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Liquid.cs",
-              "RelativeToolTip": "Entities\\Liquid.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wCUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T06:05:29.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddLiquidRentorForm.xaml",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddLiquidRentorForm.xaml",
-              "RelativeDocumentMoniker": "Entities\\AddLiquidRentorForm.xaml",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddLiquidRentorForm.xaml",
-              "RelativeToolTip": "Entities\\AddLiquidRentorForm.xaml",
+              "DocumentIndex": 28,
+              "Title": "IndividualUserControl.xaml",
+              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\IndividualUserControl.xaml",
+              "RelativeDocumentMoniker": "Entities\\IndividualUserControl.xaml",
+              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\IndividualUserControl.xaml",
+              "RelativeToolTip": "Entities\\IndividualUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-04T09:51:52.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T12:26:19.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserPermissionsVerifier.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\UserPermissionsVerifier.cs",
-              "RelativeDocumentMoniker": "Entities\\UserPermissionsVerifier.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\UserPermissionsVerifier.cs",
-              "RelativeToolTip": "Entities\\UserPermissionsVerifier.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswBcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:53:17.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddLiquidRentorForm.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddLiquidRentorForm.xaml.cs",
-              "RelativeDocumentMoniker": "Entities\\AddLiquidRentorForm.xaml.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddLiquidRentorForm.xaml.cs",
-              "RelativeToolTip": "Entities\\AddLiquidRentorForm.xaml.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAAAKkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T09:55:08.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 30,
               "Title": "LiquidUserControl.xaml",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\LiquidUserControl.xaml",
               "RelativeDocumentMoniker": "Entities\\LiquidUserControl.xaml",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\LiquidUserControl.xaml",
               "RelativeToolTip": "Entities\\LiquidUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T13:46:47.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:46:47.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 29,
               "Title": "Rentor.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Rentor.cs",
               "RelativeDocumentMoniker": "Entities\\Rentor.cs",
@@ -292,12 +634,11 @@
               "RelativeToolTip": "Entities\\Rentor.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwDcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T06:04:41.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T06:04:41.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 32,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "Arenda\\ApplicationContext.cs",
@@ -305,25 +646,11 @@
               "RelativeToolTip": "Arenda\\ApplicationContext.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAApwBAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:24:16.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:24:16.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LiquidUserControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\LiquidUserControl.xaml.cs",
-              "RelativeDocumentMoniker": "Entities\\LiquidUserControl.xaml.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\LiquidUserControl.xaml.cs",
-              "RelativeToolTip": "Entities\\LiquidUserControl.xaml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:39:24.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 33,
               "Title": "Individual.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\Individual.cs",
               "RelativeDocumentMoniker": "Entities\\Individual.cs",
@@ -331,88 +658,11 @@
               "RelativeToolTip": "Entities\\Individual.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T06:05:12.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T06:05:12.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AddIndividualRentorForm.xaml",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddIndividualRentorForm.xaml",
-              "RelativeDocumentMoniker": "Entities\\AddIndividualRentorForm.xaml",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddIndividualRentorForm.xaml",
-              "RelativeToolTip": "Entities\\AddIndividualRentorForm.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-04T09:51:23.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IndividualUserControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\IndividualUserControl.xaml.cs",
-              "RelativeDocumentMoniker": "Entities\\IndividualUserControl.xaml.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\IndividualUserControl.xaml.cs",
-              "RelativeToolTip": "Entities\\IndividualUserControl.xaml.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAQwEcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T12:26:20.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IndividualUserControl.xaml",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\IndividualUserControl.xaml",
-              "RelativeDocumentMoniker": "Entities\\IndividualUserControl.xaml",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\IndividualUserControl.xaml",
-              "RelativeToolTip": "Entities\\IndividualUserControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T12:26:19.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EntitiesApplicationContext.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\EntitiesApplicationContext.cs",
-              "RelativeDocumentMoniker": "Entities\\EntitiesApplicationContext.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\EntitiesApplicationContext.cs",
-              "RelativeToolTip": "Entities\\EntitiesApplicationContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T06:05:56.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Data.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\Data.cs",
-              "RelativeDocumentMoniker": "Lists\\Data.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\Data.cs",
-              "RelativeToolTip": "Lists\\Data.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAYwB8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:21:58.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MainMenu.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainMenu.xaml.cs",
-              "RelativeDocumentMoniker": "Arenda\\MainMenu.xaml.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainMenu.xaml.cs",
-              "RelativeToolTip": "Arenda\\MainMenu.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAawFkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T08:26:57.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
               "Title": "BanksUserConrol.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\BanksUserConrol.xaml.cs",
               "RelativeDocumentMoniker": "Lists\\BanksUserConrol.xaml.cs",
@@ -420,49 +670,33 @@
               "RelativeToolTip": "Lists\\BanksUserConrol.xaml.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAkwCMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T14:06:52.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T14:06:52.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PermissionsUserControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Permissions\\PermissionsUserControl.xaml.cs",
-              "RelativeDocumentMoniker": "Permissions\\PermissionsUserControl.xaml.cs",
-              "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Permissions\\PermissionsUserControl.xaml.cs",
-              "RelativeToolTip": "Permissions\\PermissionsUserControl.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T09:41:06.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 35,
               "Title": "PermissionsUserControl.xaml",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Permissions\\PermissionsUserControl.xaml",
               "RelativeDocumentMoniker": "Permissions\\PermissionsUserControl.xaml",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Permissions\\PermissionsUserControl.xaml",
               "RelativeToolTip": "Permissions\\PermissionsUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-04T09:35:57.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T09:35:57.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 36,
               "Title": "DecorationUserControl.xaml",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\DecorationUserControl.xaml",
               "RelativeDocumentMoniker": "Lists\\DecorationUserControl.xaml",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\DecorationUserControl.xaml",
               "RelativeToolTip": "Lists\\DecorationUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T17:09:15.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T17:09:15.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 37,
               "Title": "UserPermissionsVerifier.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\UserPermissionsVerifier.cs",
               "RelativeDocumentMoniker": "Lists\\UserPermissionsVerifier.cs",
@@ -470,12 +704,11 @@
               "RelativeToolTip": "Lists\\UserPermissionsVerifier.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:51:10.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:51:10.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 38,
               "Title": "UserPermissionsGetter.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\UserPermissionsGetter.cs",
               "RelativeDocumentMoniker": "Arenda\\UserPermissionsGetter.cs",
@@ -483,12 +716,11 @@
               "RelativeToolTip": "Arenda\\UserPermissionsGetter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:52:15.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:52:15.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 39,
               "Title": "UserVerifier.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\UserVerifier.cs",
               "RelativeDocumentMoniker": "Arenda\\UserVerifier.cs",
@@ -496,12 +728,11 @@
               "RelativeToolTip": "Arenda\\UserVerifier.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:52:12.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:52:12.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 40,
               "Title": "ListsApplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\ListsApplicationContext.cs",
               "RelativeDocumentMoniker": "Lists\\ListsApplicationContext.cs",
@@ -509,12 +740,11 @@
               "RelativeToolTip": "Lists\\ListsApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T13:16:31.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T13:16:31.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 41,
               "Title": "District.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\District.cs",
               "RelativeDocumentMoniker": "Lists\\District.cs",
@@ -522,12 +752,11 @@
               "RelativeToolTip": "Lists\\District.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T14:33:18.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T14:33:18.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 42,
               "Title": "Street.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\Street.cs",
               "RelativeDocumentMoniker": "Lists\\Street.cs",
@@ -535,24 +764,22 @@
               "RelativeToolTip": "Lists\\Street.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:17:27.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T15:17:27.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 43,
               "Title": "StreetsUserControl.xaml",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\StreetsUserControl.xaml",
               "RelativeDocumentMoniker": "Lists\\StreetsUserControl.xaml",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\StreetsUserControl.xaml",
               "RelativeToolTip": "Lists\\StreetsUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T07:56:46.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:56:46.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 44,
               "Title": "Bank.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\Bank.cs",
               "RelativeDocumentMoniker": "Lists\\Bank.cs",
@@ -560,24 +787,22 @@
               "RelativeToolTip": "Lists\\Bank.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:56:22.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:56:22.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 45,
               "Title": "BanksUserConrol.xaml",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\BanksUserConrol.xaml",
               "RelativeDocumentMoniker": "Lists\\BanksUserConrol.xaml",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\BanksUserConrol.xaml",
               "RelativeToolTip": "Lists\\BanksUserConrol.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T07:04:42.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:04:42.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 46,
               "Title": "PaymentFrequencyUserControl.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\PaymentFrequencyUserControl.xaml.cs",
               "RelativeDocumentMoniker": "Lists\\PaymentFrequencyUserControl.xaml.cs",
@@ -590,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 48,
               "Title": "Decoration.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\Decoration.cs",
               "RelativeDocumentMoniker": "Lists\\Decoration.cs",
@@ -598,12 +823,11 @@
               "RelativeToolTip": "Lists\\Decoration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:01:19.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T15:01:19.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 47,
               "Title": "DecorationUserControl.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\DecorationUserControl.xaml.cs",
               "RelativeDocumentMoniker": "Lists\\DecorationUserControl.xaml.cs",
@@ -611,12 +835,11 @@
               "RelativeToolTip": "Lists\\DecorationUserControl.xaml.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T14:07:00.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T14:07:00.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 49,
               "Title": "RentPurposeUserControl.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\RentPurposeUserControl.xaml.cs",
               "RelativeDocumentMoniker": "Lists\\RentPurposeUserControl.xaml.cs",
@@ -624,24 +847,22 @@
               "RelativeToolTip": "Lists\\RentPurposeUserControl.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAswDoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:49:50.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T13:49:50.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 51,
               "Title": "DistrictUserControl.xaml",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\DistrictUserControl.xaml",
               "RelativeDocumentMoniker": "Lists\\DistrictUserControl.xaml",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\DistrictUserControl.xaml",
               "RelativeToolTip": "Lists\\DistrictUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T12:52:36.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T12:52:36.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 50,
               "Title": "PaymentFrequency.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\PaymentFrequency.cs",
               "RelativeDocumentMoniker": "Lists\\PaymentFrequency.cs",
@@ -649,12 +870,11 @@
               "RelativeToolTip": "Lists\\PaymentFrequency.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:12:28.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T15:12:28.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 52,
               "Title": "MainMenuItem.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainMenuItem.cs",
               "RelativeDocumentMoniker": "Arenda\\MainMenuItem.cs",
@@ -662,32 +882,29 @@
               "RelativeToolTip": "Arenda\\MainMenuItem.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:34:16.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T12:34:16.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 53,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\App.xaml",
               "RelativeDocumentMoniker": "Arenda\\App.xaml",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\App.xaml",
               "RelativeToolTip": "Arenda\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-01T08:21:37.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T08:21:37.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 54,
               "Title": "ChangePasswordUserControl.xaml",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\ChangePassword\\ChangePasswordUserControl.xaml",
               "RelativeDocumentMoniker": "ChangePassword\\ChangePasswordUserControl.xaml",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\ChangePassword\\ChangePasswordUserControl.xaml",
               "RelativeToolTip": "ChangePassword\\ChangePasswordUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-01T08:05:57.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T08:05:57.633Z"
             }
           ]
         }

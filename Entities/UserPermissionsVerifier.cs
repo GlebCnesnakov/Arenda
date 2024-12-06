@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using Arenda;
-using Entities;
 
-namespace Lists
+
+namespace Entities
 {
     /// <summary>
     /// Класс для проверки прав пользователя для справочника

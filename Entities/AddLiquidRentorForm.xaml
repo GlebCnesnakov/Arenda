@@ -39,7 +39,7 @@
         </Grid.ColumnDefinitions>
 
         <!-- Заголовок -->
-        <TextBlock Grid.Row="0" Grid.Column="1" Text="Добавление юридического лица" 
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="Юридическое лицо" 
                FontSize="24" Foreground="White" FontWeight="Bold" 
                HorizontalAlignment="Center" Margin="0,0,0,20"/>
 

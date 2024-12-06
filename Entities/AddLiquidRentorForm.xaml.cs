@@ -46,7 +46,7 @@ namespace Entities
                 MiddleNameTextBox.Text = rentorForEdit.MiddleName;
                 PhoneTextBox.Text = rentorForEdit.Phone;
                 NameLiquidtextbox.Text = rentorForEdit.NameLiquid;
-                INNtextbox.Text = rentorForEdit.INN; //
+                INNtextbox.Text = rentorForEdit.INN;
                 BuildingNumberTextBox.Text = rentorForEdit.BuildingNumber.ToString();
                 HousingTextBox.Text = rentorForEdit.Housing.ToString();
                 streetComboBox.Text = rentorForEdit.Street;

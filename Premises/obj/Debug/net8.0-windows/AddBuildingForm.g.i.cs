@@ -165,7 +165,7 @@ namespace Premises {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Premises;component/addbuildingform.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Premises;V1.0.0.0;component/addbuildingform.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddBuildingForm.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

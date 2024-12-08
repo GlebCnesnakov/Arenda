@@ -109,7 +109,7 @@ namespace Lists {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Lists;component/districtusercontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Lists;V1.0.0.0;component/districtusercontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DistrictUserControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

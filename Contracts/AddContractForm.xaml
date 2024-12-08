@@ -1,0 +1,214 @@
+﻿<Window x:Class="Contracts.AddContractForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Contracts"
+        mc:Ignorable="d"
+        Title="AddContractForm" Height="1200" Width="800" Background="#272537" WindowState="Maximized">
+    <Window.Resources>
+        <!-- Стиль для закругленного TextBox -->
+        <Style TargetType="TextBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border 
+                    Background="#4E4A67" 
+                    CornerRadius="10" 
+                    BorderThickness="1" 
+                    BorderBrush="Gray">
+                            <ScrollViewer Margin="2" x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+
+    </Window.Resources>
+    <ScrollViewer>
+        <Grid Margin="0,20,0,6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Заголовок -->
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="Договор" 
+           FontSize="24" Foreground="White" FontWeight="Bold" 
+           HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <!-- Поля ввода -->
+            <StackPanel x:Name="panelForTB" Grid.Row="1" Grid.Column="1" Margin="0,10" Width="400">
+
+                <TextBlock x:Name="contractnumberlabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Номер" Foreground="White" Margin="0,5" Width="321"/>
+                <TextBox Background="#4E4A67" x:Name="ContractNumberTextBox" Margin="0,5" Width="150" />
+
+                <TextBlock x:Name="startdatalabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Дата начала" Foreground="White" Margin="0,5" Width="321"/>
+                <TextBox Background="#4E4A67" x:Name="StartDataTextBox" Margin="0,5" Width="150" />
+
+
+                <TextBlock x:Name="enddatalabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Дата конца" Foreground="White" Margin="0,10,0,5"/>
+                <TextBox Background="#4E4A67" x:Name="EndDataTextBox" Margin="0,5" Width="150" />
+
+                <TextBlock x:Name="penaltylabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Штраф" Foreground="White" Margin="0,10,0,5"/>
+                <TextBox Background="#4E4A67" x:Name="PenaltyTextBox" Margin="0,5" Width="150" />
+
+                <TextBlock x:Name="commentlabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Комментарий" Foreground="White" Margin="0,10,0,5"/>
+                <TextBox Background="#4E4A67" x:Name="CommentTextBox" Margin="0,5" Width="150" />
+
+
+                <TextBlock  x:Name="rentorlabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Арендатор" Foreground="White" Margin="0,10,0,5"/>
+                <ComboBox x:Name="rentorComboBox" FontWeight="Bold" Background="#4E4A67" Width="240" Margin="0,5"/>
+
+                <TextBlock  x:Name="paymentFrequencylabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Периодичность оплаты" Foreground="White" Margin="0,10,0,5"/>
+                <ComboBox x:Name="paymentFrequencyComboBox" FontWeight="Bold" Background="#4E4A67" Width="240" Margin="0,5"/>
+
+                <Button x:Name="addcontractButton" Width="108" Height="40" Content="Применить" FontWeight="Bold" FontSize="14" Background="#4E4A67" Foreground="White" Click="ButtonClickSaveContract" BorderBrush="Gray" Margin="10,10,0,0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="0"
+                                CornerRadius="10">
+                                <Border.Effect>
+                                    <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                                </Border.Effect>
+                                <ContentPresenter HorizontalAlignment="Center" 
+                                VerticalAlignment="Center" />
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <TextBlock Visibility="Hidden" x:Name="premiseslabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Помещения" Foreground="White" Margin="0,10,0,5"/>
+                <ScrollViewer Visibility="Hidden" x:Name="dataGridScrollViewer" >
+                    <DataGrid Visibility="Hidden" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" x:Name="dataGrid" AutoGenerateColumns="False" Background="#4E4A67" Foreground="White" AlternatingRowBackground="#4E4A67" RowBackground="#3E3A5D" Height="150">
+                        <DataGrid.Resources>
+                            <!-- Стиль для заголовков столбцов -->
+                            <Style TargetType="{x:Type DataGridColumnHeader}">
+                                <Setter Property="Background" Value="#4E4A67" />
+                                <!-- Цвет фона -->
+                                <Setter Property="Foreground" Value="White" />
+                                <!-- Цвет текста -->
+                                <Setter Property="FontWeight" Value="Bold" />
+                            </Style>
+                            <Style TargetType="{x:Type DataGridRowHeader}">
+                                <Setter Property="Background" Value="#4E4A67" />
+                                <!-- Цвет фона -->
+                                <Setter Property="Foreground" Value="White" />
+                                <!-- Цвет текста -->
+                                <Setter Property="FontWeight" Value="Bold" />
+                            </Style>
+                        </DataGrid.Resources>
+                        <DataGrid.Columns>
+                            <!-- <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="*" /> -->
+                            <DataGridTextColumn Header="Адрес" Binding="{Binding FullAddress}" Width="2*"/>
+                            <DataGridTextColumn Header="Цель" Binding="{Binding RentPurposeName}" Width="*"/>
+                            <DataGridTextColumn Header="Срок" Binding="{Binding RentalPeriod}" Width="*"/>
+                            <DataGridTextColumn Header="Плата" Binding="{Binding Rent}" Width="*"/>
+
+                        </DataGrid.Columns>
+                        <DataGrid.RowStyle>
+                            <Style TargetType="{x:Type DataGridRow}">
+                                <Setter Property="Background" Value="#4E4A67" />
+                            </Style>
+                        </DataGrid.RowStyle>
+                        <DataGrid.CellStyle>
+                            <Style TargetType="{x:Type DataGridCell}">
+                                <Setter Property="Background" Value="#3E3A5D" />
+                            </Style>
+                        </DataGrid.CellStyle>
+                    </DataGrid>
+                </ScrollViewer>
+                <StackPanel Visibility="Hidden" x:Name="buttonsStackPanel" Orientation="Horizontal">
+                    <Button Width="108" Height="40" Content="Добавить" FontWeight="Bold" FontSize="14" Background="#4E4A67" Foreground="White" Click="ButtonClickAddPremises" BorderBrush="Gray" Margin="10,10,0,0">
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" 
+                                        BorderBrush="{TemplateBinding BorderBrush}" 
+                                        BorderThickness="0"
+                                        CornerRadius="10">
+                                    <Border.Effect>
+                                        <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                                    </Border.Effect>
+                                    <ContentPresenter HorizontalAlignment="Center" 
+                                    VerticalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Width="108" Height="40" Content="Редактировать" FontWeight="Bold" FontSize="14" Background="#4E4A67" Foreground="White" Click="ButtonClickEditPremises" BorderBrush="Gray" Margin="25,10,0,0">
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="0"
+                                CornerRadius="10">
+                                    <Border.Effect>
+                                        <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                                    </Border.Effect>
+                                    <ContentPresenter HorizontalAlignment="Center" 
+                                VerticalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Width="108" Height="40" Content="Удалить" FontWeight="Bold" FontSize="14" Background="#4E4A67" Foreground="White" Click="ButtonClickDeletePremises" BorderBrush="Gray" Margin="25,10,0,0">
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" 
+                                    BorderBrush="{TemplateBinding BorderBrush}" 
+                                    BorderThickness="0"
+                                    CornerRadius="10">
+                                    <Border.Effect>
+                                        <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                                    </Border.Effect>
+                                    <ContentPresenter HorizontalAlignment="Center" 
+                                    VerticalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+
+                </StackPanel>
+
+
+
+            </StackPanel>
+            <Button Visibility="Hidden" Grid.Column="1" Grid.Row="1"
+                HorizontalAlignment="Center" VerticalAlignment="Top"
+                    x:Name="writeButton"
+                        Content="Применить" FontWeight="Bold" FontSize="14"
+    
+                    Width="108" 
+                    Height="40"
+
+                    Background="#4E4A67" 
+                    Foreground="White" 
+                    BorderBrush="Gray" Click="ButtonClickAddContract" Margin="0,852,0,0">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                            BorderBrush="{TemplateBinding BorderBrush}" 
+                            BorderThickness="0"
+                            CornerRadius="10">
+                            <Border.Effect>
+                                <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" 
+                 VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+        </Grid>
+    </ScrollViewer>
+</Window>

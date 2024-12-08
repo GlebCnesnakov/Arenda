@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangePassword", "ChangePas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Permissions", "Permissions\Permissions.csproj", "{D0077426-A691-47E3-98AE-19847B07B2F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lists", "Lists\Lists.csproj", "{3DF11CF7-E4D3-44E2-8A01-5F6B324E7F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{D71D64A0-4F18-4130-AF67-ACC031C38F72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{D71D64A0-4F18-4130-AF67-ACC031C38F72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Premises", "Premises\Premises.csproj", "{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Premises", "Premises\Premises.csproj", "{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{7184F36D-D630-4932-9FC4-BDA39CAE58A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC332949-07D3-41CC-B2CE-FE1C9D3E2DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7184F36D-D630-4932-9FC4-BDA39CAE58A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7184F36D-D630-4932-9FC4-BDA39CAE58A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7184F36D-D630-4932-9FC4-BDA39CAE58A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7184F36D-D630-4932-9FC4-BDA39CAE58A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

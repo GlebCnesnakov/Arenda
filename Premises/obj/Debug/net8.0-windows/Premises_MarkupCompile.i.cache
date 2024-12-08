@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 219-233045700
 AddBuildingForm.xaml;AddPremisesForm.xaml;BuildingUserControl.xaml;PremisesUserControl.xaml;
 
-True
+False
 

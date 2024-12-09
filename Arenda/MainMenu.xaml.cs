@@ -98,15 +98,15 @@ namespace Arenda
                 User user = Application.Current.Properties["CurrentUser"] as User;
                 
                 List<UserPermissions> userPermissions = user.GetUserPermissions(new UserPermissionsGetter());
-                if (user.Login != "admin")
-                {
+                //if (user.Login != "admin")
+                //{
                     foreach (var item in items)
                     {
                         var permissionsDictionary = userPermissions.ToDictionary(p => p.IdMenuItem);
                         permissionsDictionary.TryGetValue(item.ID, out var us);
 
                        // UserPermissions us = userPermissions.FirstOrDefault(x => x.IdMenuItem == item.ID); // поиск пункта меню
-                        if (item.Name == "Сменить пароль" || item.Name == "Разное") // Если это главный элемент, нужно отобразить всегда
+                        if (item.Name == "Сменить пароль" || item.Name == "Разное" || (item.ParrentID == 0 && menuHierarchy.ContainsKey(item.ID))) // Если это главный элемент и у элемента есть дочерние, нужно отобразить всегда
                         {
                             if (item.Name != "Права пользователей")
                             {
@@ -125,11 +125,11 @@ namespace Arenda
                             }
                         }
                     }
-                }
-                else
-                {
-                    foreach (var item in items) Build(item);
-                }
+                //}
+                //else
+                //{
+                //    foreach (var item in items) Build(item);
+                //}
             }
             Grid.SetRow(menu, 0);
             MainGrid.Children.Add(menu);  // Добавляем меню в Grid с именем MainGrid

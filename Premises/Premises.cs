@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Premises
 {
     [Table("Premises")]
-    public class Premises
+    public class Premises : InterfaceID
     {
         [Key]
         public int ID { get; set; }

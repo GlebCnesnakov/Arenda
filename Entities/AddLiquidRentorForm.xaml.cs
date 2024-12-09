@@ -29,15 +29,15 @@ namespace Entities
             List<Street> streets = Data.GetLists<Street>();
             foreach(District district in districts)
             {
-                districtComboBox.Items.Add(district.Name);
+                districtComboBox.Items.Add(district);
             }
             foreach (Bank bank in banks)
             {
-                bankComboBox.Items.Add(bank.Name);
+                bankComboBox.Items.Add(bank);
             }
             foreach (Street street in streets)
             {
-                streetComboBox.Items.Add(street.Name);
+                streetComboBox.Items.Add(street);
             }
             if (rentorForEdit != null)
             {
@@ -49,9 +49,9 @@ namespace Entities
                 INNtextbox.Text = rentorForEdit.INN;
                 BuildingNumberTextBox.Text = rentorForEdit.BuildingNumber.ToString();
                 HousingTextBox.Text = rentorForEdit.Housing.ToString();
-                streetComboBox.Text = rentorForEdit.Street;
-                districtComboBox.Text = rentorForEdit.District;
-                bankComboBox.Text = rentorForEdit.Bank;
+                streetComboBox.SelectedItem = streets.FirstOrDefault(x => x.ID == rentor.Legal.Street.ID);
+                districtComboBox.SelectedItem = districts.FirstOrDefault(x => x.ID == rentor.Legal.District.ID);
+                bankComboBox.SelectedItem = banks.FirstOrDefault(x => x.ID == rentor.Legal.Bank.ID);
             }
         }
 
@@ -103,22 +103,25 @@ namespace Entities
                 MessageBox.Show("Неверный номер здания");
                 return null;
             }
-            int? housing;
-            try
+            int? housing = null;
+            if (!String.IsNullOrEmpty(HousingTextBox.Text))
             {
-                housing = Int32.Parse(HousingTextBox.Text);
+                try
+                {
+                    housing = Int32.Parse(HousingTextBox.Text);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Неверный номер корпуса");
+                    return null;
+                }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Неверный номер корпуса");
-                return null;
-            }
-            string district = districtComboBox.SelectedItem.ToString();
-            string bank = bankComboBox.SelectedItem.ToString();
-            string street = streetComboBox.SelectedItem.ToString();
+            District district = districtComboBox.SelectedItem as District;
+            Bank bank = bankComboBox.SelectedItem as Bank;
+            Street street = streetComboBox.SelectedItem as Street;
 
 
-            Liquid liquid = new Liquid(nameLiquid, new Street() {Name = street}, inn, new Bank() {Name = bank}, new District() {Name = district}, buildingNumber, housing);
+            Liquid liquid = new Liquid(nameLiquid, street, inn, bank, district, buildingNumber, housing);
             return new Rentor(name, surname, middleName, phone, null, null, null, liquid);
         }
 
@@ -129,30 +132,36 @@ namespace Entities
                 Rentor rentor = CheckDataAndGetRentor();
                 if (rentor != null)
                 {
-                    if (Data.WriteData(rentor))
+                    try
                     {
-                        var result = MessageBox.Show(
+                        Data.WriteData(rentor);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Не удалось добавить новую запись " + ex.Message);
+                        return;
+                    }
+                    var result = MessageBox.Show(
                             "Запись добавлена. Выйти из режима добавления?",  // Текст сообщения
                             "Подтверждение",                       // Заголовок окна
                             MessageBoxButton.YesNo,                // Кнопки: "Да" и "Нет"
                             MessageBoxImage.Question               // Иконка: вопрос
                         );
-                        if (result == MessageBoxResult.Yes)
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        this.Close();
+                    }
+                    else
+                    {
+                        foreach (var control in panelForTB.Children)
                         {
-                            this.Close();
-                        }
-                        else
-                        {
-                            foreach (var control in panelForTB.Children)
+                            if (control is TextBox textBox)
                             {
-                                if (control is TextBox textBox)
-                                {
-                                    textBox.Text = String.Empty;
-                                }
-                                if (control is ComboBox combobox)
-                                {
-                                    combobox.SelectedItem = null;
-                                }
+                                textBox.Text = String.Empty;
+                            }
+                            if (control is ComboBox combobox)
+                            {
+                                combobox.SelectedItem = null;
                             }
                         }
                     }
@@ -161,7 +170,6 @@ namespace Entities
                 {
                     return;
                 }
-                
             }
             else // редактирование
             {
@@ -170,22 +178,24 @@ namespace Entities
                 if (editedRentor != null)
                 {
                     editedRentor.ID = rentorForEdit.ID;
-                    if (Data.EditData<Liquid>(editedRentor))
+                    try
                     {
-                        var result = MessageBox.Show(
+                        Data.EditData<Liquid>(editedRentor);
+                    }
+                    catch(Exception ex)
+                    {
+                        MessageBox.Show("Не удалось записать новые данные");
+                        return;
+                    }
+                    var result = MessageBox.Show(
                             "Запись редактирована. Выйти из режима редактирования?",  // Текст сообщения
                             "Подтверждение",                       // Заголовок окна
                             MessageBoxButton.YesNo,                // Кнопки: "Да" и "Нет"
                             MessageBoxImage.Question               // Иконка: вопрос
                         );
-                        if (result == MessageBoxResult.Yes)
-                        {
-                            this.Close();
-                        }
-                    }
-                    else
+                    if (result == MessageBoxResult.Yes)
                     {
-                        MessageBox.Show("Не удалось записать новые данные");
+                        this.Close();
                     }
                 }
                 else

@@ -29,11 +29,11 @@ namespace Premises
 
             foreach (Street street in streets)
             {
-                streetComboBox.Items.Add(street.Name);
+                streetComboBox.Items.Add(street);
             }
             foreach (District district in districts)
             {
-                districtComboBox.Items.Add(district.Name);
+                districtComboBox.Items.Add(district);
             }
 
             if (building != null )
@@ -42,8 +42,8 @@ namespace Premises
                 RentPlacesTextBox.Text = building.RentPlaces.ToString();
                 PhoneTextBox.Text = building.Phone;
                 BuildingNumberTextBox.Text = building.BuildingNumber.ToString();
-                streetComboBox.Text = building.Street.Name;
-                districtComboBox.Text = building.District.Name;
+                streetComboBox.SelectedItem = streets.FirstOrDefault(x => x.ID == building.Street.ID);
+                districtComboBox.SelectedItem = districts.FirstOrDefault(x => x.ID == building.District.ID);
             }
             
         }
@@ -53,7 +53,9 @@ namespace Premises
         private void ButtonClickAdd(object sender, RoutedEventArgs e)
         {
             int floorcount = 0, rentplaces = 0, buildingNumber = 0;
-            string phone = null, street = null, district = null;
+            string phone = null;
+            District district = null;
+            Street street = null;
 
             bool CheckValues()
             {
@@ -107,8 +109,8 @@ namespace Premises
                 }
 
 
-                district = districtComboBox.SelectedItem.ToString();
-                street = streetComboBox.SelectedItem.ToString();
+                district = districtComboBox.SelectedItem as District;
+                street = streetComboBox.SelectedItem as Street;
                 return true;
             }
 
@@ -116,7 +118,7 @@ namespace Premises
             {
                 if (CheckValues())
                 {
-                    Building building = new Building(floorcount, rentplaces, phone, buildingNumber, new Street() { Name = street }, new District() { Name = district });
+                    Building building = new Building(floorcount, rentplaces, phone, buildingNumber, street, district);
                     try
                     {
                         Data.WriteBuilding(building);
@@ -160,7 +162,7 @@ namespace Premises
                 if (CheckValues())
                 {
                     
-                    Building building = new Building(floorcount, rentplaces, phone, buildingNumber, new Street() { Name = street }, new District() { Name = district });
+                    Building building = new Building(floorcount, rentplaces, phone, buildingNumber, street, district);
                     building.ID = this.building.ID;
                     if (building.RentPlaces < Data.GetOccupiedRentPlacesOfBuilding(building))
                     {
@@ -169,7 +171,7 @@ namespace Premises
                     }
                     try
                     {
-                        Data.EditBuilding(building);
+                        Data.EditData<Building>(building);
                         var result = MessageBox.Show(
                                 "Запись редактирована. Выйти из режима редактирования?",  // Текст сообщения
                                 "Подтверждение",                       // Заголовок окна

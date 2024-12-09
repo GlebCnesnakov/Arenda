@@ -29,11 +29,11 @@ namespace Premises
 
             foreach (Decoration decoration in decorations)
             {
-                DecorationComboBox.Items.Add(decoration.Name);
+                DecorationComboBox.Items.Add(decoration);
             }
             foreach (Building building in buildings)
             {
-                BuildingComboBox.Items.Add(building.ToString());
+                BuildingComboBox.Items.Add(building);
             }
 
             if (premises != null)
@@ -44,8 +44,8 @@ namespace Premises
                 FloorNumberTextBox.Text = premises.FloorNumber.ToString();
                 AreaTextBox.Text = premises.Area.ToString();
                 HousingTextBox.Text = premises.Housing.ToString();
-                DecorationComboBox.Text = premises.Decoration.Name;
-                BuildingComboBox.Text = premises.Building.ToString();
+                DecorationComboBox.SelectedItem = decorations.FirstOrDefault(x => x.ID == premises.Decoration.ID);
+                BuildingComboBox.SelectedItem = buildings.FirstOrDefault(x => x.ID == premises.Building.ID);
             }
 
         }
@@ -57,7 +57,9 @@ namespace Premises
             int? apartmentNumber = 0, premisesNumber = 0, housing = 0;
             int area = 0, floorNumber = 0;
             bool isPhone = false;
-            string decoration = null, building = null;
+            //string decoration = null, building = null;
+            Decoration decoration = null;
+            Building building = null;
 
             bool CheckValues()
             {
@@ -156,9 +158,9 @@ namespace Premises
 
                 try
                 {
-                    decoration = DecorationComboBox.SelectedItem.ToString();
+                    decoration = DecorationComboBox.SelectedItem as Decoration;
 
-                    building = BuildingComboBox.SelectedItem.ToString();
+                    building = BuildingComboBox.SelectedItem as Building;
                 }
                 catch(Exception)
                 {
@@ -174,10 +176,10 @@ namespace Premises
                 if (CheckValues())
                 {
 
-                    Premises premises = new Premises(apartmentNumber, premisesNumber, floorNumber, area, isPhone, housing, new Decoration() { Name = decoration }, null);
+                    Premises premises = new Premises(apartmentNumber, premisesNumber, floorNumber, area, isPhone, housing, decoration, building);
                     try
                     {
-                        Data.WritePremises(premises, building);
+                        Data.WritePremises(premises);
                         var result = MessageBox.Show(
                                 "Запись добавлена. Выйти из режима добавления?",  // Текст сообщения
                                 "Подтверждение",                       // Заголовок окна
@@ -221,12 +223,11 @@ namespace Premises
             {
                 if (CheckValues())
                 {
-
-                    Premises premises = new Premises(apartmentNumber, premisesNumber, floorNumber, area, isPhone, housing, new Decoration() { Name = decoration }, null);
+                    Premises premises = new Premises(apartmentNumber, premisesNumber, floorNumber, area, isPhone, housing, decoration, building);
                     premises.ID = this.premises.ID;
                     try
                     {
-                        Data.EditPremises(premises, building);
+                        Data.EditData<Premises>(premises);
                         var result = MessageBox.Show(
                                 "Запись редактирована. Выйти из режима редактирования?",  // Текст сообщения
                                 "Подтверждение",                       // Заголовок окна

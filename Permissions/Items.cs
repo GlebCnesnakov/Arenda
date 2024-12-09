@@ -16,7 +16,8 @@ namespace Permissions
             {
                 try
                 {
-                    return db.MainMenuItems.Select(x => x.Name).ToArray();
+                    var parrentIDs = db.MainMenuItems.Select(x => x.ParrentID).ToHashSet();
+                    return db.MainMenuItems.Where(x => x.ParrentID != 0 || !parrentIDs.Contains(x.ID)).Select(x => x.Name).ToArray();
                 }
                 catch (InvalidOperationException ex)
                 {

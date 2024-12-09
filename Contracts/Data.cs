@@ -95,9 +95,6 @@ namespace Contracts
         {
             using (var db = new ContractsApplicationContext())
             {
-                //db.AttachRange(contractPremises.Premises, contractPremises.RentPurpose);
-                //ContractPremises cp = db.ContractPremises.FirstOrDefault(x => x.ID == contractPremises.ID);
-                //cp = contractPremises;
                 db.ContractPremises.Update(contractPremises);
                 db.SaveChanges();
             }

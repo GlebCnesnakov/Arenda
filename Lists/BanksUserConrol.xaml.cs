@@ -1,5 +1,6 @@
 ﻿using Lists;
 using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
@@ -70,7 +71,15 @@ namespace Banks
                 MessageBox.Show("Введите элемент для добавления");
                 return;
             }
-            Data.WriteData<Bank, string>(name);
+            try
+            {
+                Data.WriteData<Bank, string>(name);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Не удалось добавить новую запись");
+                return;
+            }
             if (permissions[0]) FillDataGrid(); // если можно читать - обновляем таблицу
             if (!permissions[0]) MessageBox.Show("Элемент добавлен");    
         }
@@ -85,7 +94,15 @@ namespace Banks
                 MessageBox.Show("Старый элемент не выбран или длина нового элемента меньше двух");
                 return;
             }
-            Data.EditData<Bank, string>(b.Name, newName);
+            try
+            {
+                Data.EditData<Bank, string>(b.Name, newName);
+            }
+            catch (SqliteException ex)
+            {
+                MessageBox.Show("Не удалось обновить запись");
+                return;
+            }
             if (permissions[0]) FillDataGrid(); // если можно читать - обновляем таблицу
             if (!permissions[0]) MessageBox.Show("Элемент изменён");
         }
@@ -102,7 +119,20 @@ namespace Banks
                 Bank b = dataGrid.SelectedItem as Bank;
                 if (b != null)
                 {
-                    Data.DeleteData<Bank, string>(b.Name);
+                    try
+                    {
+                        Data.DeleteData<Bank, string>(b.Name);
+                    }
+                    catch (SqliteException ex)
+                    {
+                        MessageBox.Show("Нелзя удалить используемый элемент");
+                        return;
+                    }
+                    catch (DbUpdateException ex)
+                    {
+                        MessageBox.Show("Данные невозможно удалить");
+                        return;
+                    }
                     if (permissions[0]) FillDataGrid();
                 }
             }
@@ -111,7 +141,20 @@ namespace Banks
                 string toDelete = inputTextBox.Text;
                 if (!String.IsNullOrEmpty(toDelete))
                 {
-                    Data.DeleteData<Bank, string>(toDelete);
+                    try
+                    {
+                        Data.DeleteData<Bank, string>(toDelete);
+                    }
+                    catch (SqliteException ex)
+                    {
+                        MessageBox.Show("Нелзя удалить используемый элемент");
+                        return;
+                    }
+                    catch (DbUpdateException ex)
+                    {
+                        MessageBox.Show("Данные невозможно удалить");
+                        return;
+                    }
                     if (permissions[0]) FillDataGrid();
                 }
                 else

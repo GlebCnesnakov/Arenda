@@ -76,91 +76,47 @@ namespace Premises
         {
             using (var db = new PremisesApplicationContext())
             {
-                building.Street = db.Streets.FirstOrDefault(x => x.Name == building.StreetName);
-                building.District = db.Districts.FirstOrDefault(x => x.Name == building.DistrictName);
-
+                db.Streets.Attach(building.Street);
+                db.Districts.Attach(building.District);
                 db.Buildings.Add(building);
                 db.SaveChanges();
             }
         }
 
-        public static void WritePremises(Premises premises, string address)
+        public static void WritePremises(Premises premises)
         {
             using (var db = new PremisesApplicationContext())
             {
-                string[] s = address.Split(", ");
-                string district = s[0];
-                string street = s[1];
-                int buildingNumber = Int32.Parse(s[2].Substring(2));
-                premises.Decoration = db.Decorations.FirstOrDefault(x => x.Name == premises.Decoration.Name);
-                // находим здание по адресу
-                premises.Building = db.Buildings.FirstOrDefault(x => x.Street.Name == street && x.District.Name == district && x.BuildingNumber == buildingNumber);
+                db.Decorations.Attach(premises.Decoration);
+                db.Buildings.Attach(premises.Building);
                 // Занято мест
                 int occupiedPlaces = GetOccupiedRentPlacesOfBuilding(premises.Building);
                 //если помещений под аренду в здании меньше чем занятых. + 1 т.к. база еще не сохранилась
-                if (premises.Building.RentPlaces < occupiedPlaces + 1)
-                {
-                    throw new InvalidOperationException();
-                }
+                if (premises.Building.RentPlaces < occupiedPlaces + 1) throw new InvalidOperationException();
                 db.Premises.Add(premises);
                 db.SaveChanges();
             }
         }
-        public static void EditBuilding(Building editedBuilding)
+        public static void EditData<T>(T forEdit) where T : class
         {
             using (var db = new PremisesApplicationContext())
             {
-                Building building = db.Buildings.FirstOrDefault(x => x.ID == editedBuilding.ID);
-                building.Street = db.Streets.FirstOrDefault(x => x.Name == editedBuilding.StreetName);
-                building.District = db.Districts.FirstOrDefault(x => x.Name == editedBuilding.DistrictName);
-
-                building.FloorCount = editedBuilding.FloorCount;
-                building.RentPlaces = editedBuilding.RentPlaces;
-                building.Phone = editedBuilding.Phone;
-                building.BuildingNumber = editedBuilding.BuildingNumber;
+                db.Set<T>().Update(forEdit);
                 db.SaveChanges();
             }
         }
 
-        public static void EditPremises(Premises premises, string address)
+        public static void DeleteData<T>(T toDelete) where T : class, InterfaceID
         {
             using (var db = new PremisesApplicationContext())
             {
-                string[] s = address.Split(", ");
-                string district = s[0];
-                string street = s[1];
-                int buildingNumber = Int32.Parse(s[2].Substring(2));
-                Premises premisesForEdit = db.Premises.FirstOrDefault(x => x.ID == premises.ID);
-                premisesForEdit.Decoration = db.Decorations.FirstOrDefault(x => x.Name == premises.Decoration.Name);
-                // находим здание по адресу
-                premisesForEdit.Building = db.Buildings.FirstOrDefault(x => x.Street.Name == street && x.District.Name == district && x.BuildingNumber == buildingNumber);
-                premisesForEdit.ApartmentNumber = premises.ApartmentNumber;
-                premisesForEdit.PremisesNumber = premises.PremisesNumber;
-                premisesForEdit.Area = premises.Area;
-                premisesForEdit.FloorNumber = premises.FloorNumber;
-                premisesForEdit.Housing = premises.Housing;
-                premisesForEdit.IsPhone = premises.IsPhone;
-                db.SaveChanges();
-            }
-        }
-
-        public static void DeleteBuilding(Building building)
-        {
-            using (var db = new PremisesApplicationContext())
-            {
-                // Удаляем все помещения, связанные со зданием
-                List<Premises> buildingPremisesList = db.Premises.Where(x => x.BuildingID == building.ID).ToList();
-                db.Premises.RemoveRange(buildingPremisesList);
-                db.Buildings.Remove(building);
-                db.SaveChanges();
-            }
-        }
-
-        public static void DeletePremises(Premises premises)
-        {
-            using (var db = new PremisesApplicationContext())
-            {
-                db.Premises.Remove(premises);
+                if (typeof(T) == typeof(Premises)) db.Set<T>().Remove(toDelete);
+                else if (typeof(T) == typeof(Building))
+                {
+                    List<Premises> buildingPremisesList = db.Premises.Where(x => x.BuildingID == toDelete.ID).ToList();
+                    db.Premises.RemoveRange(buildingPremisesList);
+                    db.Set<T>().Remove(toDelete);
+                }
                 db.SaveChanges();
             }
         }

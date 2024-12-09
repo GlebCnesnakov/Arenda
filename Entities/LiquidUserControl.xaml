@@ -107,16 +107,30 @@
                 Click="ButtonClickSearch" Grid.ColumnSpan="2">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
-                            <Border Background="{TemplateBinding Background}" 
-                            BorderBrush="{TemplateBinding BorderBrush}" 
-                            BorderThickness="0"
-                            CornerRadius="10">
-                                <Border.Effect>
-                                    <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="1" />
-                                </Border.Effect>
-                                <ContentPresenter HorizontalAlignment="Center" 
-                                          VerticalAlignment="Center" />
-                            </Border>
+                            <Grid>
+                                <Border x:Name="ButtonBorder" 
+    Background="{TemplateBinding Background}" 
+    BorderBrush="{TemplateBinding BorderBrush}" 
+    BorderThickness="0" 
+    CornerRadius="10"
+    Cursor="Hand">
+                                    <Border.Effect>
+                                        <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                                    </Border.Effect>
+                                    <ContentPresenter HorizontalAlignment="Center" 
+                  VerticalAlignment="Center" />
+                                </Border>
+                                <!-- Применение трансформации для анимации -->
+                                <Grid.RenderTransform>
+                                    <ScaleTransform ScaleX="1" ScaleY="1" />
+                                </Grid.RenderTransform>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <!-- Анимация при наведении -->
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="ButtonBorder" Property="Background" Value="#5E5A87" />
+                                </Trigger>
+                            </ControlTemplate.Triggers>
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
@@ -140,16 +154,30 @@
     BorderBrush="Gray" Click="ButtonClickAdd" Margin="670,31,23,31">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
-                    <Border Background="{TemplateBinding Background}" 
-                BorderBrush="{TemplateBinding BorderBrush}" 
-                BorderThickness="0"
-                CornerRadius="10">
-                        <Border.Effect>
-                            <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
-                        </Border.Effect>
-                        <ContentPresenter HorizontalAlignment="Center" 
-                             VerticalAlignment="Center" />
-                    </Border>
+                    <Grid>
+                        <Border x:Name="ButtonBorder" 
+    Background="{TemplateBinding Background}" 
+    BorderBrush="{TemplateBinding BorderBrush}" 
+    BorderThickness="0" 
+    CornerRadius="10"
+    Cursor="Hand">
+                            <Border.Effect>
+                                <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" 
+                  VerticalAlignment="Center" />
+                        </Border>
+                        <!-- Применение трансформации для анимации -->
+                        <Grid.RenderTransform>
+                            <ScaleTransform ScaleX="1" ScaleY="1" />
+                        </Grid.RenderTransform>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <!-- Анимация при наведении -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="ButtonBorder" Property="Background" Value="#5E5A87" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Button.Template>
 
@@ -168,16 +196,30 @@ Foreground="White"
 BorderBrush="Gray" Click="ButtonClickEdit" Margin="508,31,174,31">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
-                    <Border Background="{TemplateBinding Background}" 
-            BorderBrush="{TemplateBinding BorderBrush}" 
-            BorderThickness="0"
-            CornerRadius="10">
-                        <Border.Effect>
-                            <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
-                        </Border.Effect>
-                        <ContentPresenter HorizontalAlignment="Center" 
-                         VerticalAlignment="Center" />
-                    </Border>
+                    <Grid>
+                        <Border x:Name="ButtonBorder" 
+    Background="{TemplateBinding Background}" 
+    BorderBrush="{TemplateBinding BorderBrush}" 
+    BorderThickness="0" 
+    CornerRadius="10"
+    Cursor="Hand">
+                            <Border.Effect>
+                                <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" 
+                  VerticalAlignment="Center" />
+                        </Border>
+                        <!-- Применение трансформации для анимации -->
+                        <Grid.RenderTransform>
+                            <ScaleTransform ScaleX="1" ScaleY="1" />
+                        </Grid.RenderTransform>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <!-- Анимация при наведении -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="ButtonBorder" Property="Background" Value="#5E5A87" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Button.Template>
 
@@ -197,16 +239,30 @@ Foreground="White"
 BorderBrush="Gray" Click="ButtonClickDelete" Margin="0,31,0,31">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
-                    <Border Background="{TemplateBinding Background}" 
-            BorderBrush="{TemplateBinding BorderBrush}" 
-            BorderThickness="0"
-            CornerRadius="10">
-                        <Border.Effect>
-                            <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
-                        </Border.Effect>
-                        <ContentPresenter HorizontalAlignment="Center" 
-                         VerticalAlignment="Center" />
-                    </Border>
+                    <Grid>
+                        <Border x:Name="ButtonBorder" 
+    Background="{TemplateBinding Background}" 
+    BorderBrush="{TemplateBinding BorderBrush}" 
+    BorderThickness="0" 
+    CornerRadius="10"
+    Cursor="Hand">
+                            <Border.Effect>
+                                <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" 
+                  VerticalAlignment="Center" />
+                        </Border>
+                        <!-- Применение трансформации для анимации -->
+                        <Grid.RenderTransform>
+                            <ScaleTransform ScaleX="1" ScaleY="1" />
+                        </Grid.RenderTransform>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <!-- Анимация при наведении -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="ButtonBorder" Property="Background" Value="#5E5A87" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Button.Template>
 

@@ -15,6 +15,10 @@ namespace Premises
         public int ID { get; set; }
         [Column("decoration_type")]
         public string Name { get; set; }
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 
     [Table("Street")]
@@ -24,6 +28,10 @@ namespace Premises
         public int ID { get; set; }
         [Column("street")]
         public string Name { get; set; }
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 
     [Table("District")]
@@ -33,5 +41,9 @@ namespace Premises
         public int ID { get; set; }
         [Column("district")]
         public string Name { get; set; }
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

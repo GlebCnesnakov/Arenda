@@ -61,6 +61,7 @@ namespace Contracts
             comments = CommentTextBox.Text;
             startDate = StartDataTextBox.Text;
             endDate = EndDataTextBox.Text;
+            
             if ((!String.IsNullOrEmpty(startDate) && startDate.Length == 10) || (!String.IsNullOrEmpty(endDate) && endDate.Length == 10))
             {
                 try

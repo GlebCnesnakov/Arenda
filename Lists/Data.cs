@@ -23,16 +23,9 @@ namespace Lists
         {
             using (var db = new ListsApplicationContext())
             {
-                try
-                {
-                    T entity = new T() { Name = name };
-                    db.Set<T>().Add(entity);
-                    db.SaveChanges();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Не удалось добавить новую запись");
-                }
+                T entity = new T() { Name = name };
+                db.Set<T>().Add(entity);
+                db.SaveChanges();
             }
         }
         public static void EditData<T, TName>(TName name, TName newName) where T: class, INameAble<TName>
@@ -42,16 +35,8 @@ namespace Lists
                 var ed = db.Set<T>().FirstOrDefault(x => x.Name.Equals(name));
                 if (ed != null)
                 {
-                    try
-                    {
-                        ed.Name = newName;
-                        db.SaveChanges();
-                    }
-                    catch(SqliteException ex)
-                    {
-                        MessageBox.Show("Не удалось обновить запись");
-                    }
-                    
+                    ed.Name = newName;
+                    db.SaveChanges();
                 }
                 else
                 {
@@ -63,24 +48,11 @@ namespace Lists
         {
             using (var db = new ListsApplicationContext())
             {
-                try
+                var dd = db.Set<T>().FirstOrDefault(x => x.Name.Equals(name));
+                if (dd != null)
                 {
-                    var dd = db.Set<T>().FirstOrDefault(x => x.Name.Equals(name));
-                    if (dd != null)
-                    {
-                        db.Set<T>().Remove(dd);
-                        db.SaveChanges();
-                        MessageBox.Show("Элемент удалён");
-
-                    }
-                }
-                catch(SqliteException ex)
-                {
-                    MessageBox.Show("Данные невозможно удалить");
-                }
-                catch(DbUpdateException ex)
-                {
-                    MessageBox.Show("Данные невозможно удалить");
+                    db.Set<T>().Remove(dd);
+                    db.SaveChanges();
                 }
             }
         }

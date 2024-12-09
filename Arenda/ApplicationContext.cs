@@ -20,6 +20,7 @@ namespace Arenda
             string dbPath = System.IO.Path.GetFullPath(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory + @"..\..\..\..\Database.db"));
 
             optionsBuilder.UseSqlite($"Data Source={dbPath}");
+
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -81,7 +81,7 @@ namespace Premises
             Premises premises = dataGrid.SelectedItem as Premises;
             try
             {
-                Data.DeletePremises(premises);
+                Data.DeleteData<Premises>(premises);
             }
             catch (Exception ex)
             {

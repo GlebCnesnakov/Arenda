@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -93,11 +95,17 @@ namespace Lists
             {
                 Data.EditData<PaymentFrequency, int>(b.Name, Int32.Parse(newName));
             }
-            catch(Exception ex)
+            catch (SqliteException ex)
+            {
+                MessageBox.Show("Не удалось обновить запись");
+                return;
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show("Необходимо ввести числовые данные");
                 return;
             }
+
             if (permissions[0]) FillDataGrid(); // если можно читать - обновляем таблицу
             if (!permissions[0]) MessageBox.Show("Элемент изменён");
         }
@@ -114,7 +122,20 @@ namespace Lists
                 PaymentFrequency b = dataGrid.SelectedItem as PaymentFrequency;
                 if (b != null)
                 {
-                    Data.DeleteData<PaymentFrequency, int>(b.Name);
+                    try
+                    {
+                        Data.DeleteData<PaymentFrequency, int>(b.Name);
+                    }
+                    catch (SqliteException ex)
+                    {
+                        MessageBox.Show("Нелзя удалить используемый элемент");
+                        return;
+                    }
+                    catch (DbUpdateException ex)
+                    {
+                        MessageBox.Show("Данные невозможно удалить");
+                        return;
+                    }
                     if (permissions[0]) FillDataGrid();
                 }
             }
@@ -126,13 +147,18 @@ namespace Lists
                     try
                     {
                         Data.DeleteData<PaymentFrequency, int>(Int32.Parse(toDelete));
-                        if (permissions[0]) FillDataGrid();
                     }
-                    catch(Exception ex)
+                    catch (SqliteException ex)
                     {
-                        MessageBox.Show("Нельзя удалить число");
+                        MessageBox.Show("Нелзя удалить используемый элемент");
                         return;
                     }
+                    catch (DbUpdateException ex)
+                    {
+                        MessageBox.Show("Данные невозможно удалить");
+                        return;
+                    }
+                    if (permissions[0]) FillDataGrid();
                 }
                 else
                 {

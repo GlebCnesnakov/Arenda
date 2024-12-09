@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.Data.Sqlite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -83,8 +84,22 @@ namespace Entities
         private void ButtonClickDelete(object sender, RoutedEventArgs e)
         {
             Rentor selectedRentor = dataGrid.SelectedItem as Rentor;
-            Data.DeleteData(selectedRentor);
+            try
+            {
+                Data.DeleteData(selectedRentor);
+            }
+            catch (SqliteException ex)
+            {
+                MessageBox.Show("Не удалось удалить запись " + ex.Message);
+                return;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Не удалось удалить запись " + ex.Message);
+                return;
+            }
             if (permissions[0]) FillDataGrid();
+            else MessageBox.Show("Запись удалена");
         }
     }
 }

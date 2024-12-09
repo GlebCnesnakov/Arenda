@@ -15,5 +15,6 @@ namespace Premises
         public virtual DbSet<Street> Streets { get; set; }
         public virtual DbSet<District> Districts { get; set; }
         public virtual DbSet<Decoration> Decorations { get; set; }
+
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -66,7 +68,15 @@ namespace Lists
                 MessageBox.Show("Введите элемент для добавления");
                 return;
             }
-            Data.WriteData<Decoration, string>(name);
+            try
+            {
+                Data.WriteData<Decoration, string>(name);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Не удалось добавить новую запись");
+                return;
+            }
             if (permissions[0]) FillDataGrid(); // если можно читать - обновляем таблицу
             if (!permissions[0]) MessageBox.Show("Элемент добавлен");
         }
@@ -81,7 +91,15 @@ namespace Lists
                 MessageBox.Show("Старый элемент не выбран или длина нового элемента меньше двух");
                 return;
             }
-            Data.EditData<Decoration, string>(b.Name, newName);
+            try
+            {
+                Data.EditData<Decoration, string>(b.Name, newName);
+            }
+            catch (SqliteException ex)
+            {
+                MessageBox.Show("Не удалось обновить запись");
+                return;
+            }
             if (permissions[0]) FillDataGrid(); // если можно читать - обновляем таблицу
             if (!permissions[0]) MessageBox.Show("Элемент изменён");
         }
@@ -98,7 +116,20 @@ namespace Lists
                 Decoration b = dataGrid.SelectedItem as Decoration;
                 if (b != null)
                 {
-                    Data.DeleteData<Decoration, string>(b.Name);
+                    try
+                    {
+                        Data.DeleteData<Decoration, string>(b.Name);
+                    }
+                    catch (SqliteException ex)
+                    {
+                        MessageBox.Show("Нелзя удалить используемый элемент");
+                        return;
+                    }
+                    catch (DbUpdateException ex)
+                    {
+                        MessageBox.Show("Данные невозможно удалить");
+                        return;
+                    }
                     if (permissions[0]) FillDataGrid();
                 }
             }
@@ -107,7 +138,20 @@ namespace Lists
                 string toDelete = inputTextBox.Text;
                 if (!String.IsNullOrEmpty(toDelete))
                 {
-                    Data.DeleteData<Decoration, string>(toDelete);
+                    try
+                    {
+                        Data.DeleteData<Decoration, string>(toDelete);
+                    }
+                    catch (SqliteException ex)
+                    {
+                        MessageBox.Show("Нелзя удалить используемый элемент");
+                        return;
+                    }
+                    catch (DbUpdateException ex)
+                    {
+                        MessageBox.Show("Данные невозможно удалить");
+                        return;
+                    }
                     if (permissions[0]) FillDataGrid();
                 }
                 else

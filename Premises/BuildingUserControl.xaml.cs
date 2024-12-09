@@ -81,7 +81,7 @@ namespace Premises
             Building building = dataGrid.SelectedItem as Building;
             try
             {
-                Data.DeleteBuilding(building);
+                Data.DeleteData<Building>(building);
                 MessageBox.Show("Здание удалено. Связанные помещения удалены");
             }
             catch(Exception ex)

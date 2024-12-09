@@ -82,6 +82,8 @@ namespace Contracts
             {
                 try
                 {
+                    contractPremises.ContractID = contractPremisesForEdit.ContractID;
+                    contractPremises.ID = contractPremisesForEdit.ID;
                     Data.EditPremisesOfContract(contractPremises);
                     MessageBox.Show("Помещение редактировано");
                     this.Close();

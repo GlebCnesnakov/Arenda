@@ -125,27 +125,32 @@ namespace Entities
                 Rentor rentor = CheckDataAndGetRentor();
                 if (rentor != null)
                 {
-
-                    if (Data.WriteData(rentor))
+                    try
                     {
-                        var result = MessageBox.Show(
+                        Data.WriteData(rentor);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Не удалось добавить новую запись " + ex.Message);
+                        return;
+                    }
+                    var result = MessageBox.Show(
                             "Запись добавлена. Выйти из режима добавления?",  // Текст сообщения
                             "Подтверждение",                       // Заголовок окна
                             MessageBoxButton.YesNo,                // Кнопки: "Да" и "Нет"
                             MessageBoxImage.Question               // Иконка: вопрос
                         );
-                        if (result == MessageBoxResult.Yes)
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        this.Close();
+                    }
+                    else
+                    {
+                        foreach (var control in panelForTB.Children)
                         {
-                            this.Close();
-                        }
-                        else
-                        {
-                            foreach (var control in panelForTB.Children)
+                            if (control is TextBox textBox)
                             {
-                                if (control is TextBox textBox)
-                                {
-                                    textBox.Text = String.Empty;
-                                }
+                                textBox.Text = String.Empty;
                             }
                         }
                     }
@@ -162,22 +167,24 @@ namespace Entities
                 if (editedRentor != null)
                 {
                     editedRentor.ID = rentorForEdit.ID;
-                    if (Data.EditData<Individual>(editedRentor))
+                    try
                     {
-                        var result = MessageBox.Show(
+                        Data.EditData<Individual>(editedRentor);
+                    }
+                    catch(Exception ex)
+                    {
+                        MessageBox.Show("Не удалось записать новые данные");
+                        return;
+                    }
+                    var result = MessageBox.Show(
                             "Запись редактирована. Выйти из режима редактирования?",  // Текст сообщения
                             "Подтверждение",                       // Заголовок окна
                             MessageBoxButton.YesNo,                // Кнопки: "Да" и "Нет"
                             MessageBoxImage.Question               // Иконка: вопрос
                         );
-                        if (result == MessageBoxResult.Yes)
-                        {
-                            this.Close();
-                        }
-                    }
-                    else
+                    if (result == MessageBoxResult.Yes)
                     {
-                        MessageBox.Show("Не удалось записать новые данные");
+                        this.Close();
                     }
                 }
                 else

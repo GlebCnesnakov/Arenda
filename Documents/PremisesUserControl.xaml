@@ -1,0 +1,133 @@
+﻿<UserControl x:Class="Documents.PremisesUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Documents"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="1200" Background="#272537">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="119*"/>
+
+        </Grid.ColumnDefinitions>
+        <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Район" Foreground="White" FontSize="14" FontWeight="Bold" Height="28" Width="52" Margin="0,0,0,60"/>
+        <ComboBox SelectionChanged="districtsComboBoxSelectionChanged" x:Name="districtsComboBox" Width="200" Height="30" FontWeight="Black" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <DataGrid CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" x:Name="dataGrid" AutoGenerateColumns="False" Background="#4E4A67" Foreground="White" AlternatingRowBackground="#4E4A67" RowBackground="#3E3A5D" Grid.Column="1" Height="300">
+            <DataGrid.Columns>
+                <!-- <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="*" /> -->
+                <DataGridTextColumn Header="Адрес" Binding="{Binding Address}" Width="1.4*" />
+                <DataGridTextColumn Header="Квартира" Binding="{Binding ApartmentNumber}" Width="*" />
+                <DataGridTextColumn Header="Помещение" Binding="{Binding PremisesNumber}" Width="*" />
+                <DataGridTextColumn Header="Корпус" Binding="{Binding Housing}" Width="*" />
+                <DataGridTextColumn Header="Количествой этажей" Binding="{Binding FloorNumber}" Width="*" />
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Phone}" Width="*" />
+                <DataGridTextColumn Header="Тип отделки" Binding="{Binding DecorationName}" Width="*" />
+            </DataGrid.Columns>
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="#4E4A67" />
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="Background" Value="#3E3A5D" />
+                </Style>
+            </DataGrid.CellStyle>
+            <DataGrid.Resources>
+                <!-- Стиль для заголовков столбцов -->
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#4E4A67" />
+                    <!-- Цвет фона -->
+                    <Setter Property="Foreground" Value="White" />
+                    <!-- Цвет текста -->
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Style>
+                <Style TargetType="DataGridRowHeader">
+                    <Setter Property="Background" Value="#4E4A67" />
+                    <!-- Цвет фона -->
+                    <Setter Property="Foreground" Value="White" />
+                    <!-- Цвет текста -->
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Style>
+            </DataGrid.Resources>
+        </DataGrid>
+        <Button x:Name="viewButton" IsEnabled="False" Grid.Row="1" Height="45"
+        Width="150" 
+        Content="Предпросмотр" FontWeight="Bold" FontSize="14" 
+        Background="#4E4A67" Foreground="White" 
+        Click="ButtonClickView" BorderBrush="Gray" 
+        HorizontalAlignment="Center" Grid.Column="0">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Border x:Name="ButtonBorder" 
+                    Background="{TemplateBinding Background}" 
+                    BorderBrush="{TemplateBinding BorderBrush}" 
+                    BorderThickness="0" 
+                    CornerRadius="10"
+                    Cursor="Hand">
+                            <Border.Effect>
+                                <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" 
+        VerticalAlignment="Center" />
+                        </Border>
+                        <!-- Применение трансформации для анимации -->
+                        <Grid.RenderTransform>
+                            <ScaleTransform ScaleX="1" ScaleY="1" />
+                        </Grid.RenderTransform>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <!-- Анимация при наведении -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="ButtonBorder" Property="Background" Value="#5E5A87" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Visibility="Hidden" x:Name="exportButton" IsEnabled="False" Grid.Row="1" Height="45"
+                Width="150" 
+                Content="Экспорт" FontWeight="Bold" FontSize="14" 
+                Background="#4E4A67" Foreground="White" 
+                Click="ButtonClickExport" BorderBrush="Gray" 
+                HorizontalAlignment="Center" Grid.Column="1">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Border x:Name="ButtonBorder" 
+                            Background="{TemplateBinding Background}" 
+                            BorderBrush="{TemplateBinding BorderBrush}" 
+                            BorderThickness="0" 
+                            CornerRadius="10"
+                            Cursor="Hand">
+                            <Border.Effect>
+                                <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" 
+                            VerticalAlignment="Center" />
+                        </Border>
+                        <!-- Применение трансформации для анимации -->
+                        <Grid.RenderTransform>
+                            <ScaleTransform ScaleX="1" ScaleY="1" />
+                        </Grid.RenderTransform>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <!-- Анимация при наведении -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="ButtonBorder" Property="Background" Value="#5E5A87" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+
+        </Button>
+    </Grid>
+</UserControl>

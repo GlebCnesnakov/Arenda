@@ -64,13 +64,6 @@ namespace Entities
                 }
                 else
                 {
-                    //Street street = db.Streets.FirstOrDefault(x => x.Name == rentor.Street);
-                    //Bank bank = db.Banks.FirstOrDefault(x => x.Name == rentor.Bank);
-                    //District district = db.Districts.FirstOrDefault(x => x.Name == rentor.District);
-
-                    //rentor.Legal.Street = street;
-                    //rentor.Legal.District = district;
-                    //rentor.Legal.Bank = bank;
                     db.Banks.Attach(rentor.Legal.Bank);
                     db.Districts.Attach(rentor.Legal.District);
                     db.Streets.Attach(rentor.Legal.Street);

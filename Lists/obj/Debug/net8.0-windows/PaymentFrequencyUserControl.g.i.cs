@@ -109,7 +109,7 @@ namespace Lists {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Lists;V1.0.0.0;component/paymentfrequencyusercontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Lists;component/paymentfrequencyusercontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PaymentFrequencyUserControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

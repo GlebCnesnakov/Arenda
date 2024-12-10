@@ -85,7 +85,7 @@ namespace Contracts {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Contracts;V1.0.0.0;component/addpremisesform.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Contracts;component/addpremisesform.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddPremisesForm.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

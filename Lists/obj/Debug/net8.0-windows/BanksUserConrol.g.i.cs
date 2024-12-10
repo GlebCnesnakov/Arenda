@@ -109,7 +109,7 @@ namespace Banks {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Lists;V1.0.0.0;component/banksuserconrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Lists;component/banksuserconrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\BanksUserConrol.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -83,7 +83,6 @@ namespace Contracts
         {
             using (var db = new ContractsApplicationContext())
             {
-                //удалить все contrprem
                 List<ContractPremises> cp = db.ContractPremises.Where(x => x.Contract.ID == contract.ID).ToList();
                 db.ContractPremises.RemoveRange(cp);
                 db.Contracts.Remove(contract);

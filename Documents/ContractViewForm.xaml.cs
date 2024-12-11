@@ -35,7 +35,6 @@ namespace Documents
                 this.rentor = rentor;
             }
             catch(Exception ex){return;}
-            //contractTextBlock.Text = $"Договор аренды {contract.ContractNumber}";
             contractTextBlock.Text = GenerateContractText(rentor, contract, contractPremises);
         }
         public static string GenerateContractText(Rentor rentor, Contract contract, List<ContractPremises> contractPremises)
@@ -116,13 +115,13 @@ namespace Documents
                     paragraph.AppendChild(paragraphProperties);
                     var run = new Run();
                     var runProperties = new RunProperties();
-                    runProperties.FontSize = new FontSize { Val = "26" }; // Шрифт 12 pt (24 половины пункта)
+                    runProperties.FontSize = new FontSize { Val = "26" };
                     runProperties.RunFonts = new RunFonts
                     {
-                        Ascii = "Times New Roman",       // Для латинских символов
-                        EastAsia = "Times New Roman",    // Для восточноазиатских символов
-                        HighAnsi = "Times New Roman",    // Для символов высокого ASCII (например, для символов с акцентами)
-                        ComplexScript = "Times New Roman" // Для сложных скриптов (например, кириллица)
+                        Ascii = "Times New Roman",
+                        EastAsia = "Times New Roman",
+                        HighAnsi = "Times New Roman",
+                        ComplexScript = "Times New Roman"
                     };
                     run.PrependChild(runProperties);
                     run.AppendChild(new Text(line));
@@ -133,9 +132,10 @@ namespace Documents
         }
         private void ButtonClickExport(object sender, RoutedEventArgs e)
         {
-            string filePath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), $"Contract_{Guid.NewGuid()}.docx");
+            //string filePath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), $"Contract_{Guid.NewGuid()}.docx");
+            string filePath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory + @$"..\..\..\..\Выходные документы", $"Contract_{Guid.NewGuid()}.docx");
             CreateWordDocument(filePath, GenerateContractText(rentor, contract, contractPremises));
-            MessageBox.Show("Файл добавлен на рабочий стол");
+            MessageBox.Show("Файл добавлен в папку \"Выходные документы\"");
             Close();
         }
     }

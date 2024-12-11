@@ -64,7 +64,6 @@ namespace Contracts
         public string? MiddleName { get; set; }
         [Column("phone")]
         public string Phone { get; set; }
-
         public override string ToString()
         {
             return $"{Surname} {Name} {MiddleName}, тлф:{Phone}";
@@ -192,7 +191,6 @@ namespace Contracts
         [ForeignKey(nameof(District))]
         public int DistrictID { get; set; }
         public District District { get; set; }
-
         public override string ToString()
         {
             return $"{District.Name}, {Street.Name}, д.{BuildingNumber}";

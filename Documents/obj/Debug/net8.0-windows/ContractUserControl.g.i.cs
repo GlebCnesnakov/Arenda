@@ -77,7 +77,7 @@ namespace Documents {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Documents;component/contractusercontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Documents;V1.0.0.0;component/contractusercontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ContractUserControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

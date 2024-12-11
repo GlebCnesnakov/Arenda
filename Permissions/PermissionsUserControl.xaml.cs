@@ -26,6 +26,7 @@ namespace Permissions
         {
             InitializeComponent();
             FillComboboxes();
+            this.KeyDown += PermissionsKeyDown;
         }
         private void FillComboboxes()
         {
@@ -74,17 +75,30 @@ namespace Permissions
                 //выдать чекбоксы
                 UserPermission up = new UserPermission(loginCombobox.SelectedItem.ToString(), itemCombobox.SelectedItem.ToString());
                 bool[] permissions = up.VerifyPermission(new UserPermissionsVerifier());
-
                 readCheckBox.IsChecked = permissions[0];
                 writeCheckBox.IsChecked = permissions[1];
                 editCheckBox.IsChecked = permissions[2];
                 deleteCheckBox.IsChecked = permissions[3];
-
                 setButton.IsEnabled = true;
             }
             else
             {
                 setButton.IsEnabled = false;
+            }
+        }
+
+        void PermissionsKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                var focused = FocusManager.GetFocusedElement(this);
+                if (focused is Button button) button.RaiseEvent(new RoutedEventArgs(Button.ClickEvent, button));
+                else if (focused is CheckBox checkBox)
+                {
+                    checkBox.IsChecked = !checkBox.IsChecked;
+                    var eventType = checkBox.IsChecked == true ? CheckBox.CheckedEvent : CheckBox.UncheckedEvent;
+                    checkBox.RaiseEvent(new RoutedEventArgs(eventType, checkBox));
+                }
             }
         }
     }

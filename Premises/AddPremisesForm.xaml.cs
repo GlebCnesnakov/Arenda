@@ -23,6 +23,7 @@ namespace Premises
         public AddPremisesForm(Premises premises = null)
         {
             InitializeComponent();
+            //this.KeyDown += AddPremisesKeyDown;
             this.premises = premises; // premises для редактирования
             List<Decoration> decorations = Data.GetLists<Decoration>();
             List<Building> buildings = Data.ReadData<Building>();
@@ -251,5 +252,6 @@ namespace Premises
                 }
             }
         }
+        
     }
 }

@@ -23,6 +23,7 @@ namespace Premises
         public AddBuildingForm(Building building = null)
         {
             InitializeComponent();
+            //this.KeyDown += BuildingKeyDown;
             this.building = building; // building для редактирования
             List<Street> streets = Data.GetLists<Street>();
             List<District> districts = Data.GetLists<District>();
@@ -195,5 +196,6 @@ namespace Premises
                 }
             }
         }
+        
     }
 }

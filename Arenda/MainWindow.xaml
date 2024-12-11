@@ -34,15 +34,15 @@
             </Border.Effect>
             <StackPanel Height="158">
                 <TextBlock FontWeight="Bold" FontSize="18" HorizontalAlignment="Center" Text="Логин" Foreground="White" Margin="0,0,0,0"/>
-                <TextBox Margin="10" x:Name="LoginTextBox" Height="30" Background="Transparent" Foreground="White" BorderBrush="Gray" Width="196" FontSize="18" BorderThickness="0,0,0,2"/>
+                <TextBox TabIndex="1" Margin="10" x:Name="LoginTextBox" Height="30" Background="Transparent" Foreground="White" BorderBrush="Gray" Width="196" FontSize="18" BorderThickness="0,0,0,2"/>
                 <TextBlock FontWeight="Bold" FontSize="18" HorizontalAlignment="Center" Text="Пароль" Foreground="White" Margin="0,0,0,5"/>
-                <PasswordBox x:Name="PasswordTextBox" Height="30" Background="Transparent" Foreground="White" BorderBrush="Gray" Width="196" BorderThickness="0,0,0,2"/>
+                <PasswordBox TabIndex="2" x:Name="PasswordTextBox" Height="30" Background="Transparent" Foreground="White" BorderBrush="Gray" Width="196" BorderThickness="0,0,0,2"/>
             </StackPanel>
         </Border>
 
 
 
-        <Button Content="Войти" 
+        <Button TabIndex="4" Content="Войти" 
         Grid.Row="2" 
         Width="100" 
         Height="35" 

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-31003763498
+5-1395501012
 
-7955853844
+9-1053833920
 2211694811825
-ContractUserControl.xaml;ContractViewForm.xaml;PremisesUserControl.xaml;
+AboutUserControl.xaml;CertificateUserControl.xaml;ContractUserControl.xaml;ContractViewForm.xaml;PremisesUserControl.xaml;
 
 False
 

@@ -85,7 +85,7 @@ namespace Documents {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Documents;component/premisesusercontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Documents;V1.0.0.0;component/premisesusercontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PremisesUserControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -89,26 +89,26 @@
                 </DataGrid>
 
                 <!-- TextBox с фиксированным положением -->
-                <TextBox Grid.Column="1" TextAlignment="Left" VerticalAlignment="Top" Padding="7"
+                <TextBox TabIndex="1" Grid.Column="1" TextAlignment="Left" VerticalAlignment="Top" Padding="7"
                  FontSize="16" FontWeight="Bold" Foreground="White" 
                  x:Name="searchTextBox" Background="#272537" 
                  Width="412" Height="40" Margin="20,0,0,0" Grid.ColumnSpan="2"/>
 
                 <!-- Кнопка с фиксированным положением -->
-                <Button Grid.Column="3" x:Name="searchButton" VerticalAlignment="Top" Margin="20,0,-15,0"
-                Content="Поиск по улице" FontWeight="Bold" FontSize="14"
-                IsEnabled="True" Height="40"
-                Background="#4E4A67" Foreground="White" BorderBrush="Gray" 
-                Click="ButtonClickSearch">
+                <Button TabIndex="2" Grid.Column="3" x:Name="searchButton" VerticalAlignment="Top" Margin="20,0,-15,0"
+                        Content="Поиск по улице" FontWeight="Bold" FontSize="14"
+                        IsEnabled="True" Height="40"
+                        Background="#4E4A67" Foreground="White" BorderBrush="Gray" 
+                        Click="ButtonClickSearch">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Grid>
                                 <Border x:Name="ButtonBorder" 
-    Background="{TemplateBinding Background}" 
-    BorderBrush="{TemplateBinding BorderBrush}" 
-    BorderThickness="0" 
-    CornerRadius="10"
-    Cursor="Hand">
+                                    Background="{TemplateBinding Background}" 
+                                    BorderBrush="{TemplateBinding BorderBrush}" 
+                                    BorderThickness="0" 
+                                    CornerRadius="10"
+                                    Cursor="Hand">
                                     <Border.Effect>
                                         <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="10" Opacity="0.5" />
                                     </Border.Effect>
@@ -135,18 +135,18 @@
 
 
 
-        <Button
-            Visibility="Hidden"
-    x:Name="writeButton"
-        Content="Добавить" FontWeight="Bold" FontSize="14"
-    IsEnabled="False"
-    Grid.Row="2" 
-    Width="107" 
-            Height="40"
+        <Button TabIndex="3"
+                Visibility="Hidden"
+                x:Name="writeButton"
+                Content="Добавить" FontWeight="Bold" FontSize="14"
+                IsEnabled="False"
+                Grid.Row="2" 
+                Width="107" 
+                Height="40"
     
-    Background="#4E4A67" 
-    Foreground="White" 
-    BorderBrush="Gray" Click="ButtonClickAdd" Margin="670,31,23,31">
+                Background="#4E4A67" 
+                Foreground="White" 
+                BorderBrush="Gray" Click="ButtonClickAdd" Margin="670,31,23,31">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Grid>
@@ -177,18 +177,18 @@
             </Button.Template>
 
         </Button>
-        <Button
-            Visibility="Hidden"
-x:Name="editButton"
-    Content="Изменить" FontWeight="Bold" FontSize="14"
-IsEnabled="False"
-Grid.Row="2" 
-Width="118" 
-            Height="40"
+        <Button TabIndex="4"
+                Visibility="Hidden"
+                x:Name="editButton"
+                Content="Изменить" FontWeight="Bold" FontSize="14"
+                IsEnabled="False"
+                Grid.Row="2" 
+                Width="118" 
+                Height="40"
 
-Background="#4E4A67" 
-Foreground="White" 
-BorderBrush="Gray" Click="ButtonClickEdit" Margin="508,31,174,31">
+                Background="#4E4A67" 
+                Foreground="White" 
+                BorderBrush="Gray" Click="ButtonClickEdit" Margin="508,31,174,31">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Grid>
@@ -220,18 +220,18 @@ BorderBrush="Gray" Click="ButtonClickEdit" Margin="508,31,174,31">
 
         </Button>
 
-        <Button
-            Visibility="Hidden"
-x:Name="deleteButton"
-    Content="Удалить" FontWeight="Bold" FontSize="14"
-IsEnabled="False"
-Grid.Row="2" 
-Width="116" 
-Height="40"
-HorizontalAlignment="Center" 
-Background="#4E4A67" 
-Foreground="White" 
-BorderBrush="Gray" Click="ButtonClickDelete" Margin="0,31,0,31">
+        <Button TabIndex="5"
+                Visibility="Hidden"
+                x:Name="deleteButton"
+                Content="Удалить" FontWeight="Bold" FontSize="14"
+                IsEnabled="False"
+                Grid.Row="2" 
+                Width="116" 
+                Height="40"
+                HorizontalAlignment="Center" 
+                Background="#4E4A67" 
+                Foreground="White" 
+                BorderBrush="Gray" Click="ButtonClickDelete" Margin="0,31,0,31">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Grid>

@@ -101,7 +101,7 @@ namespace Premises {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Premises;component/premisesusercontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Premises;V1.0.0.0;component/premisesusercontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PremisesUserControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

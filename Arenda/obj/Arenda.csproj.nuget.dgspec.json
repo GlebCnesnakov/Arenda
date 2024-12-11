@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\ggleb\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\ggleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

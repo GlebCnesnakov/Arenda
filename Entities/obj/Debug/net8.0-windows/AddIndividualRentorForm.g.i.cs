@@ -197,7 +197,7 @@ namespace Entities {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Entities;component/addindividualrentorform.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Entities;V1.0.0.0;component/addindividualrentorform.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddIndividualRentorForm.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

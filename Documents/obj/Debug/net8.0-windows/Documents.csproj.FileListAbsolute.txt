@@ -26,3 +26,7 @@ C:\Users\ggleb\source\repos\Arenda\Documents\obj\Debug\net8.0-windows\ContractVi
 C:\Users\ggleb\source\repos\Arenda\Documents\obj\Debug\net8.0-windows\ContractViewForm.baml
 C:\Users\ggleb\source\repos\Arenda\Documents\obj\Debug\net8.0-windows\PremisesUserControl.g.cs
 C:\Users\ggleb\source\repos\Arenda\Documents\obj\Debug\net8.0-windows\PremisesUserControl.baml
+C:\Users\ggleb\source\repos\Arenda\Documents\obj\Debug\net8.0-windows\CertificateUserControl.g.cs
+C:\Users\ggleb\source\repos\Arenda\Documents\obj\Debug\net8.0-windows\CertificateUserControl.baml
+C:\Users\ggleb\source\repos\Arenda\Documents\obj\Debug\net8.0-windows\AboutUserControl.g.cs
+C:\Users\ggleb\source\repos\Arenda\Documents\obj\Debug\net8.0-windows\AboutUserControl.baml

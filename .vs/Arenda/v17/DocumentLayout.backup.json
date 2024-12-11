@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ggleb\\source\\repos\\Arenda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\documents\\premisesusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|solutionrelative:documents\\premisesusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\documents\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|solutionrelative:documents\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\documents\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|solutionrelative:documents\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\documents\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|solutionrelative:documents\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\documents\\contractviewform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|solutionrelative:documents\\contractviewform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\documents\\premisesusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|solutionrelative:documents\\premisesusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\documents\\premisesusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|solutionrelative:documents\\premisesusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\documents\\contractviewform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|solutionrelative:documents\\contractviewform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2817BF5A-6F53-4298-9E84-808846AFEF75}|Documents\\Documents.csproj|c:\\users\\ggleb\\source\\repos\\arenda\\documents\\contractviewform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -309,7 +309,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -321,26 +321,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PremisesUserControl.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\PremisesUserControl.xaml.cs",
               "RelativeDocumentMoniker": "Documents\\PremisesUserControl.xaml.cs",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\PremisesUserControl.xaml.cs",
               "RelativeToolTip": "Documents\\PremisesUserControl.xaml.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAnwFAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAnwFYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:41:51.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T13:41:51.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Data.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\Data.cs",
               "RelativeDocumentMoniker": "Documents\\Data.cs",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\Data.cs",
               "RelativeToolTip": "Documents\\Data.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwEcAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T06:15:10.566Z",
               "EditorCaption": ""
@@ -353,35 +352,32 @@
               "RelativeDocumentMoniker": "Documents\\Models.cs",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\Models.cs",
               "RelativeToolTip": "Documents\\Models.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAIA/wI8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T07:31:45.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T07:31:45.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PremisesUserControl.xaml",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\PremisesUserControl.xaml",
               "RelativeDocumentMoniker": "Documents\\PremisesUserControl.xaml",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\PremisesUserControl.xaml",
               "RelativeToolTip": "Documents\\PremisesUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T12:53:14.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T12:53:14.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ContractViewForm.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\ContractViewForm.xaml.cs",
               "RelativeDocumentMoniker": "Documents\\ContractViewForm.xaml.cs",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\ContractViewForm.xaml.cs",
               "RelativeToolTip": "Documents\\ContractViewForm.xaml.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAkwIkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:18:18.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T09:18:18.584Z"
             },
             {
               "$type": "Document",
@@ -393,8 +389,7 @@
               "RelativeToolTip": "Documents\\DocumentsApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T06:15:57.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T06:15:57.133Z"
             },
             {
               "$type": "Document",
@@ -405,8 +400,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\ContractViewForm.xaml",
               "RelativeToolTip": "Documents\\ContractViewForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T09:11:46.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T09:11:46.391Z"
             },
             {
               "$type": "Document",
@@ -417,8 +411,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\LiquidUserControl.xaml",
               "RelativeToolTip": "Entities\\LiquidUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:29:50.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:29:50.726Z"
             },
             {
               "$type": "Document",
@@ -430,8 +423,7 @@
               "RelativeToolTip": "Entities\\Data.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAcwCEAAADbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T14:40:44.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T14:40:44.333Z"
             },
             {
               "$type": "Document",
@@ -443,8 +435,7 @@
               "RelativeToolTip": "Entities\\Models.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAUwFkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:43:08.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:43:08.411Z"
             },
             {
               "$type": "Document",
@@ -455,8 +446,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\IndividualUserControl.xaml",
               "RelativeToolTip": "Entities\\IndividualUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:29:18.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:29:18.985Z"
             },
             {
               "$type": "Document",
@@ -467,8 +457,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddIndividualRentorForm.xaml",
               "RelativeToolTip": "Entities\\AddIndividualRentorForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:28:56.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:28:56.235Z"
             },
             {
               "$type": "Document",
@@ -479,8 +468,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\ContractUserControl.xaml",
               "RelativeToolTip": "Documents\\ContractUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T06:05:27.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T06:05:27.645Z"
             },
             {
               "$type": "Document",
@@ -492,8 +480,7 @@
               "RelativeToolTip": "Arenda\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAuwBUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:11:44.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:11:44.885Z"
             },
             {
               "$type": "Document",
@@ -505,8 +492,7 @@
               "RelativeToolTip": "Documents\\ContractUserControl.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T06:05:32.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T06:05:32.416Z"
             },
             {
               "$type": "Document",
@@ -518,8 +504,7 @@
               "RelativeToolTip": "Permissions\\IVerifyPermissions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T11:32:58.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T11:32:58.121Z"
             },
             {
               "$type": "Document",
@@ -531,8 +516,7 @@
               "RelativeToolTip": "Permissions\\PermissionsUserControl.xaml.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:53:02.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T13:53:02.53Z"
             },
             {
               "$type": "Document",
@@ -543,8 +527,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Entities\\AddLiquidRentorForm.xaml",
               "RelativeToolTip": "Entities\\AddLiquidRentorForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:29:09.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:29:09.185Z"
             },
             {
               "$type": "Document",
@@ -556,8 +539,7 @@
               "RelativeToolTip": "Entities\\AddLiquidRentorForm.xaml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAAG8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:54:08.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:54:08.446Z"
             },
             {
               "$type": "Document",
@@ -568,8 +550,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\BanksUserConrol.xaml",
               "RelativeToolTip": "Lists\\BanksUserConrol.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:30:16.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:30:16.193Z"
             },
             {
               "$type": "Document",
@@ -580,8 +561,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Contracts\\AddPremisesForm.xaml",
               "RelativeToolTip": "Contracts\\AddPremisesForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T14:33:21.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:33:21.042Z"
             },
             {
               "$type": "Document",
@@ -592,8 +572,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Contracts\\AddContractForm.xaml",
               "RelativeToolTip": "Contracts\\AddContractForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T13:03:15.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T13:03:15.734Z"
             },
             {
               "$type": "Document",
@@ -605,8 +584,7 @@
               "RelativeToolTip": "Contracts\\Models.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAkwA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T06:42:11.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T06:42:11.869Z"
             },
             {
               "$type": "Document",
@@ -618,8 +596,7 @@
               "RelativeToolTip": "Contracts\\ContractsApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T09:51:41.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T09:51:41.897Z"
             },
             {
               "$type": "Document",
@@ -631,8 +608,7 @@
               "RelativeToolTip": "Contracts\\UserPermissionsVerifier.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAswBcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T09:29:21.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T09:29:21.391Z"
             },
             {
               "$type": "Document",
@@ -644,8 +620,7 @@
               "RelativeToolTip": "Entities\\UserPermissionsVerifier.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAAB4AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:13:44.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:13:44.707Z"
             },
             {
               "$type": "Document",
@@ -657,8 +632,7 @@
               "RelativeToolTip": "Premises\\Models.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAYwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:30:58.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T14:30:58.816Z"
             },
             {
               "$type": "Document",
@@ -670,8 +644,7 @@
               "RelativeToolTip": "Premises\\InterfaceID.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:56:24.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T15:56:24.346Z"
             },
             {
               "$type": "Document",
@@ -683,8 +656,7 @@
               "RelativeToolTip": "Lists\\Models.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAcwA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T07:55:16.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T07:55:16.927Z"
             },
             {
               "$type": "Document",
@@ -696,8 +668,7 @@
               "RelativeToolTip": "Lists\\Data.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAYwCEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:21:58.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T12:21:58.432Z"
             },
             {
               "$type": "Document",
@@ -709,8 +680,7 @@
               "RelativeToolTip": "Premises\\PremisesApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:31:47.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T15:31:47.656Z"
             },
             {
               "$type": "Document",
@@ -722,21 +692,19 @@
               "RelativeToolTip": "Lists\\Lists.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-05T08:46:23.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:46:23.86Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "Documents",
+              "Title": "Documents.csproj",
               "DocumentMoniker": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\Documents.csproj",
               "RelativeDocumentMoniker": "Documents\\Documents.csproj",
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Documents\\Documents.csproj",
               "RelativeToolTip": "Documents\\Documents.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-10T06:13:56.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T06:13:56.944Z"
             },
             {
               "$type": "Document",
@@ -748,8 +716,7 @@
               "RelativeToolTip": "Arenda\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T06:36:08.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T06:36:08.149Z"
             },
             {
               "$type": "Document",
@@ -761,8 +728,7 @@
               "RelativeToolTip": "Premises\\Data.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAqwF4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:15:55.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T10:15:55.067Z"
             },
             {
               "$type": "Document",
@@ -774,8 +740,7 @@
               "RelativeToolTip": "Entities\\AddIndividualRentorForm.xaml.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAkwKUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:52:02.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:52:02.792Z"
             },
             {
               "$type": "Document",
@@ -787,8 +752,7 @@
               "RelativeToolTip": "Entities\\IndividualUserControl.xaml.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAA1wF4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T12:26:20.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T12:26:20.223Z"
             },
             {
               "$type": "Document",
@@ -800,8 +764,7 @@
               "RelativeToolTip": "Premises\\AddPremisesForm.xaml.cs",
               "ViewState": "AgIAANUAAAAAAAAAAAAAAN0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:30:44.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T14:30:44.716Z"
             },
             {
               "$type": "Document",
@@ -813,8 +776,7 @@
               "RelativeToolTip": "Entities\\LiquidUserControl.xaml.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAQwFcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:55:13.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:55:13.433Z"
             },
             {
               "$type": "Document",
@@ -826,8 +788,7 @@
               "RelativeToolTip": "Premises\\PremisesUserControl.xaml.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwFQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:57:36.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T15:57:36.214Z"
             },
             {
               "$type": "Document",
@@ -839,8 +800,7 @@
               "RelativeToolTip": "Premises\\BuildingUserControl.xaml.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAuwFsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:23:01.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T10:23:01.087Z"
             },
             {
               "$type": "Document",
@@ -852,8 +812,7 @@
               "RelativeToolTip": "Premises\\AddBuildingForm.xaml.cs",
               "ViewState": "AgIAAJgAAAAAAAAAAAAAAKwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:23:11.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:23:11.69Z"
             },
             {
               "$type": "Document",
@@ -864,8 +823,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\AddPremisesForm.xaml",
               "RelativeToolTip": "Premises\\AddPremisesForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-06T15:17:14.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T15:17:14.473Z"
             },
             {
               "$type": "Document",
@@ -877,8 +835,7 @@
               "RelativeToolTip": "Contracts\\AddPremisesForm.xaml.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAAFoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:46:30.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:46:30.789Z"
             },
             {
               "$type": "Document",
@@ -890,8 +847,7 @@
               "RelativeToolTip": "Permissions\\Items.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:55:12.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T13:55:12.608Z"
             },
             {
               "$type": "Document",
@@ -903,8 +859,7 @@
               "RelativeToolTip": "Permissions\\Users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:56:08.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T13:56:08.963Z"
             },
             {
               "$type": "Document",
@@ -916,8 +871,7 @@
               "RelativeToolTip": "Contracts\\AddContractForm.xaml.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAA4wJUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:06:54.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T13:06:54.957Z"
             },
             {
               "$type": "Document",
@@ -929,8 +883,7 @@
               "RelativeToolTip": "Arenda\\MainMenuItem.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:34:16.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T12:34:16.226Z"
             },
             {
               "$type": "Document",
@@ -942,8 +895,7 @@
               "RelativeToolTip": "Contracts\\Data.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAgwGIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T08:52:21.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T08:52:21.946Z"
             },
             {
               "$type": "Document",
@@ -955,8 +907,7 @@
               "RelativeToolTip": "Lists\\BanksUserConrol.xaml.cs",
               "ViewState": "AgIAAJMAAAAAAAAAAAAkwFAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:37:03.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:37:03.349Z"
             },
             {
               "$type": "Document",
@@ -968,8 +919,7 @@
               "RelativeToolTip": "Lists\\DecorationUserControl.xaml.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAAwE0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:43:26.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:43:26.857Z"
             },
             {
               "$type": "Document",
@@ -981,8 +931,7 @@
               "RelativeToolTip": "Lists\\DistrictUserControl.xaml.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAAwE0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:43:53.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:43:53.904Z"
             },
             {
               "$type": "Document",
@@ -994,8 +943,7 @@
               "RelativeToolTip": "Lists\\PaymentFrequencyUserControl.xaml.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAuwE0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T14:16:51.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T14:16:51.738Z"
             },
             {
               "$type": "Document",
@@ -1007,8 +955,7 @@
               "RelativeToolTip": "Lists\\RentPurposeUserControl.xaml.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAAwE0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:45:09.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:45:09.671Z"
             },
             {
               "$type": "Document",
@@ -1020,8 +967,7 @@
               "RelativeToolTip": "Lists\\StreetsUserControl.xaml.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAAwE0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:45:39.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:45:39.789Z"
             },
             {
               "$type": "Document",
@@ -1032,8 +978,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\PremisesUserControl.xaml",
               "RelativeToolTip": "Premises\\PremisesUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:34:16.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:34:16.456Z"
             },
             {
               "$type": "Document",
@@ -1044,8 +989,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\BuildingUserControl.xaml",
               "RelativeToolTip": "Premises\\BuildingUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:33:48.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:33:48.62Z"
             },
             {
               "$type": "Document",
@@ -1056,8 +1000,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Premises\\AddBuildingForm.xaml",
               "RelativeToolTip": "Premises\\AddBuildingForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:33:20.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:33:20.592Z"
             },
             {
               "$type": "Document",
@@ -1068,8 +1011,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Permissions\\PermissionsUserControl.xaml",
               "RelativeToolTip": "Permissions\\PermissionsUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:33:07.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:33:07.51Z"
             },
             {
               "$type": "Document",
@@ -1080,8 +1022,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\RentPurposeUserControl.xaml",
               "RelativeToolTip": "Lists\\RentPurposeUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:32:10.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:32:10.268Z"
             },
             {
               "$type": "Document",
@@ -1092,8 +1033,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\PaymentFrequencyUserControl.xaml",
               "RelativeToolTip": "Lists\\PaymentFrequencyUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:31:44.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:31:44.443Z"
             },
             {
               "$type": "Document",
@@ -1104,8 +1044,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\StreetsUserControl.xaml",
               "RelativeToolTip": "Lists\\StreetsUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T07:56:46.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:56:46.63Z"
             },
             {
               "$type": "Document",
@@ -1116,8 +1055,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\DecorationUserControl.xaml",
               "RelativeToolTip": "Lists\\DecorationUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T17:09:15.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T17:09:15.649Z"
             },
             {
               "$type": "Document",
@@ -1128,8 +1066,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Lists\\DistrictUserControl.xaml",
               "RelativeToolTip": "Lists\\DistrictUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T12:52:36.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T12:52:36.301Z"
             },
             {
               "$type": "Document",
@@ -1140,8 +1077,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Contracts\\ContractUserControl.xaml",
               "RelativeToolTip": "Contracts\\ContractUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:28:15.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:28:15.625Z"
             },
             {
               "$type": "Document",
@@ -1152,8 +1088,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Contracts\\MoreAboutContractForm.xaml",
               "RelativeToolTip": "Contracts\\MoreAboutContractForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T10:31:31.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T10:31:31.256Z"
             },
             {
               "$type": "Document",
@@ -1164,8 +1099,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\ChangePassword\\ChangePasswordUserControl.xaml",
               "RelativeToolTip": "ChangePassword\\ChangePasswordUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:26:25.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:26:25.507Z"
             },
             {
               "$type": "Document",
@@ -1176,8 +1110,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\RegistrationWindow.xaml",
               "RelativeToolTip": "Arenda\\RegistrationWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:25:18.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:25:18.406Z"
             },
             {
               "$type": "Document",
@@ -1188,8 +1121,7 @@
               "ToolTip": "C:\\Users\\ggleb\\source\\repos\\Arenda\\Arenda\\MainWindow.xaml",
               "RelativeToolTip": "Arenda\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T11:11:40.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:11:40.74Z"
             },
             {
               "$type": "Document",
@@ -1214,8 +1146,7 @@
               "RelativeToolTip": "Arenda\\ApplicationContext.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAApwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:24:16.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:24:16.962Z"
             },
             {
               "$type": "Document",
@@ -1227,8 +1158,7 @@
               "RelativeToolTip": "Contracts\\ContractUserControl.xaml.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAiwGEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T09:29:01.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T09:29:01.991Z"
             },
             {
               "$type": "Document",
@@ -1240,8 +1170,7 @@
               "RelativeToolTip": "Contracts\\MoreAboutContractForm.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAswBkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T10:55:42.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T10:55:42.415Z"
             },
             {
               "$type": "Document",
@@ -1253,8 +1182,7 @@
               "RelativeToolTip": "Entities\\EntitiesApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T06:05:56.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T06:05:56.948Z"
             },
             {
               "$type": "Document",
@@ -1266,8 +1194,7 @@
               "RelativeToolTip": "Lists\\UserPermissionsVerifier.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:51:10.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:51:10.742Z"
             }
           ]
         }

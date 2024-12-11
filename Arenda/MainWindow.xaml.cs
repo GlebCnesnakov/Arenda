@@ -21,13 +21,10 @@ namespace Arenda
     {
       public MainWindow()
         {
-
             InitializeComponent();
+            this.KeyDown += WindowKeyDown;
             //string dbPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\Database.db");
-            
             //MessageBox.Show(System.IO.Path.GetFullPath(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory + @"..\..\..\Database.db")));
-            
-
         }
 
         private async void Button_Click_Login(object sender, RoutedEventArgs e)
@@ -68,6 +65,19 @@ namespace Arenda
             RegistrationWindow rw = new();
             rw.Show();
             Hide();
+        }
+
+        void WindowKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                var focused = FocusManager.GetFocusedElement(this);
+                if (focused is Button button)
+                {
+                    button.RaiseEvent(new RoutedEventArgs(Button.ClickEvent, button));
+                }
+            }
+            
         }
     }
 }

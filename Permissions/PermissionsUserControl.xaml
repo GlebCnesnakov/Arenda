@@ -40,14 +40,14 @@
             <StackPanel Height="158">
 
                 <TextBlock Grid.Row="1" Grid.Column="0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Left" Text="Пользователь" Foreground="White" Margin="4,0,0,0"/>
-                <ComboBox SelectionChanged="ComboBoxSelected" x:Name="loginCombobox" Grid.Row="1" Grid.Column="0" FontWeight="Bold" Background="Blue" Width="100" HorizontalAlignment="Left" Margin="14,8,0,0" BorderBrush="Gray" BorderThickness="0,0,0,2"></ComboBox>
+                <ComboBox TabIndex="1" SelectionChanged="ComboBoxSelected" x:Name="loginCombobox" Grid.Row="1" Grid.Column="0" FontWeight="Bold" Background="Blue" Width="100" HorizontalAlignment="Left" Margin="14,8,0,0" BorderBrush="Gray" BorderThickness="0,0,0,2"></ComboBox>
                 <TextBlock Grid.Row="1" Grid.Column="0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" Text="Пункт меню" Foreground="White" Margin="0,-70,8,0" Height="26"/>
-                <ComboBox SelectionChanged="ComboBoxSelected" x:Name="itemCombobox" Grid.Row="1" Grid.Column="0"  FontWeight="Bold" Background="Blue" Width="100" HorizontalAlignment="Right" Margin="0,-20,4,0" BorderBrush="Gray" BorderThickness="0,0,0,2" Height="20"></ComboBox>
+                <ComboBox TabIndex="2" SelectionChanged="ComboBoxSelected" x:Name="itemCombobox" Grid.Row="1" Grid.Column="0"  FontWeight="Bold" Background="Blue" Width="100" HorizontalAlignment="Right" Margin="0,-20,4,0" BorderBrush="Gray" BorderThickness="0,0,0,2" Height="20"></ComboBox>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0, 80">
-                    <CheckBox Foreground="White"  x:Name="readCheckBox" Content="Читать" Margin="12"/>
-                    <CheckBox Foreground="White" x:Name="writeCheckBox" Content="Добавлять" Margin="12"/>
-                    <CheckBox Foreground="White" x:Name="editCheckBox" Content="Редактировать" Margin="12"/>
-                    <CheckBox Foreground="White" x:Name="deleteCheckBox" Content="Удалять" Margin="12"/>
+                    <CheckBox TabIndex="3" Foreground="White"  x:Name="readCheckBox" Content="Читать" Margin="12"/>
+                    <CheckBox TabIndex="4" Foreground="White" x:Name="writeCheckBox" Content="Добавлять" Margin="12"/>
+                    <CheckBox TabIndex="5" Foreground="White" x:Name="editCheckBox" Content="Редактировать" Margin="12"/>
+                    <CheckBox TabIndex="6" Foreground="White" x:Name="deleteCheckBox" Content="Удалять" Margin="12"/>
                 </StackPanel>
                 
 
@@ -57,7 +57,7 @@
 
 
 
-        <Button
+        <Button TabIndex="7"
         x:Name="setButton"
             Content="Выдать"
         IsEnabled="False"

@@ -73,7 +73,7 @@ namespace Entities
         public Individual? Individual { get; set; }
         public Liquid? Legal { get; set; }
         public Rentor() { }
-        public Rentor(string name, string surname, string middlename, string phone, int? indiID, int? legalID, Individual indi, Liquid liq)
+        public Rentor(string name, string surname, string middlename, string phone, int? indiID, int? legalID, Individual individual, Liquid liq)
         {
             Name = name;
             Surname = surname;
@@ -81,14 +81,13 @@ namespace Entities
             Phone = phone;
             IndividualID = indiID;
             LegalID = legalID;
-            Individual = indi;
+            Individual = individual;
             Legal = liq;
         }
         public string PassportSeries => Individual?.Series ?? "N/A";
         public string PassportNumber => Individual?.Number ?? "N/A";
         public string DateOfIssue => Individual?.Date ?? "N/A";
         public string IssuedBy => Individual?.IssuedBy ?? "N/A";
-
         public string NameLiquid => Legal?.NameLiquid ?? "N/A";
         public string Street => Legal?.Street.Name ?? "N/A";
         public string INN => Legal?.INN ?? "N/A";

@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Documents.AboutUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Documents"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300" Background="#272537">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Width="300" Grid.Row="1">
+            <TextBlock Foreground="White" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top">О программе</TextBlock>
+            <TextBlock Foreground="White" TextWrapping="Wrap" FontSize="16">Программа разработана для управления базой данных компании по аренде недвижимости. Она позволяет вести учет объектов недвижимости, арендаторов, договоров аренды. Программа обеспечивает поиск, редактирование, создание, удаление и чтение записей, а также предоставляет функции для генерации отчетов и печатных документов.</TextBlock>
+        </StackPanel>
+    </Grid>
+</UserControl>

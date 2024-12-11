@@ -48,40 +48,40 @@
             <!-- Поля ввода -->
             <StackPanel x:Name="panelForTB" Grid.Row="1" Grid.Column="1" Margin="0,10" Width="400">
                 <TextBlock x:Name="floorcountlabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Количество этажей" Foreground="White" Margin="0,5" Width="321"/>
-                <TextBox Background="#4E4A67" x:Name="FloorCountTextBox" Margin="0,5" Width="150"/>
+                <TextBox TabIndex="1" Background="#4E4A67" x:Name="FloorCountTextBox" Margin="0,5" Width="150"/>
 
 
                 <TextBlock x:Name="rentplaceslabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Помещений под аренду" Foreground="White" Margin="0,10,0,5"/>
-                <TextBox Background="#4E4A67" x:Name="RentPlacesTextBox" Margin="0,5" Width="150" />
+                <TextBox TabIndex="2" Background="#4E4A67" x:Name="RentPlacesTextBox" Margin="0,5" Width="150" />
 
                 <TextBlock x:Name="phonelabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Телефон коменданта" Foreground="White" Margin="0,10,0,5"/>
-                <TextBox Background="#4E4A67" x:Name="PhoneTextBox" Margin="0,5" Width="150" />
+                <TextBox TabIndex="3" Background="#4E4A67" x:Name="PhoneTextBox" Margin="0,5" Width="150" />
 
                 <TextBlock  x:Name="buildingnumberlabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Номер здания" Foreground="White" Margin="0,10,0,5"/>
-                <TextBox  Background="#4E4A67" x:Name="BuildingNumberTextBox" Margin="0,5" Width="150" />
+                <TextBox TabIndex="3" Background="#4E4A67" x:Name="BuildingNumberTextBox" Margin="0,5" Width="150" />
 
 
                 <TextBlock  x:Name="streetlabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Улица" Foreground="White" Margin="0,10,0,5"/>
-                <ComboBox x:Name="streetComboBox" FontWeight="Bold" Background="#4E4A67" Width="150"/>
+                <ComboBox TabIndex="4" x:Name="streetComboBox" FontWeight="Bold" Background="#4E4A67" Width="150"/>
 
 
                 <TextBlock x:Name="districtlabel" TextAlignment="Center" FontSize="16" FontWeight="Bold" Text="Район" Foreground="White" Margin="0,10,0,5"/>
-                <ComboBox x:Name="districtComboBox" FontWeight="Bold" Background="#4E4A67" Width="150"/>
+                <ComboBox TabIndex="5" x:Name="districtComboBox" FontWeight="Bold" Background="#4E4A67" Width="150"/>
 
 
 
             </StackPanel>
-            <Button Grid.Column="1" Grid.Row="1"
-HorizontalAlignment="Center" VerticalAlignment="Top"
-    x:Name="writeButton"
-        Content="Применить" FontWeight="Bold" FontSize="14"
+            <Button TabIndex="6" Grid.Column="1" Grid.Row="1"
+                    HorizontalAlignment="Center" VerticalAlignment="Top"
+                    x:Name="writeButton"
+                    Content="Применить" FontWeight="Bold" FontSize="14"
     
-    Width="108" 
-    Height="40"
+                    Width="108" 
+                    Height="40"
 
-    Background="#4E4A67" 
-    Foreground="White" 
-    BorderBrush="Gray" Click="ButtonClickAdd" Margin="0,600,0,0">
+                    Background="#4E4A67" 
+                    Foreground="White" 
+                    BorderBrush="Gray" Click="ButtonClickAdd" Margin="0,600,0,0">
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Grid>

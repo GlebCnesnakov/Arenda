@@ -37,7 +37,7 @@ namespace Documents
         private void districtsComboBoxSelectionChanged(object sender, SelectionChangedEventArgs e) => exportButton.IsEnabled = true;
         private void ButtonClickExport(object sender, RoutedEventArgs e)
         {
-            string filePath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), $"Premises_{Guid.NewGuid()}.xlsx");
+            string filePath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory + @$"..\..\..\..\Выходные документы", $"Premises_{Guid.NewGuid()}.xlsx");
             ExportPremisesToExcel(filePath, premises);
             MessageBox.Show("Файл добавлен на рабочий стол");
         }

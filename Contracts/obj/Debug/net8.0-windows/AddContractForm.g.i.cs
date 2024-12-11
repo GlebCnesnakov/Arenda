@@ -221,7 +221,7 @@ namespace Contracts {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Contracts;component/addcontractform.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Contracts;V1.0.0.0;component/addcontractform.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddContractForm.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
